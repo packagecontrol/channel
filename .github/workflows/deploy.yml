@@ -1,0 +1,91 @@
+name: Deploy Repository
+
+on:
+  # Runs if repository is updated
+  push:
+    branches:
+      - $default-branch
+    paths:
+      - repository.json
+
+  # Runs daily at 00:00 UTC to fetch possible library updates
+  schedule:
+  - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      updated: ${{ steps.resolve-repository.outputs.updated }}
+    steps:
+    - name: Set up python
+      id: setup-python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+
+    - name: Checkout repository
+      id: checkout-repository
+      uses: actions/checkout@v4
+
+    - name: Restore cache
+      id: restore-cache
+      uses: actions/cache/restore@v3
+      with:
+        path: |-
+          cache/
+          _site/libraries.json.sha512
+          blacklist.json
+        key: ${{ runner.os }}-state
+        restore-keys: |
+          ${{ runner.os }}-state
+
+    - name: Resolve repository
+      id: resolve-repository
+      env:
+        GH_USER: ${{secrets.GH_APP_ID}}
+        GH_PASS: ${{secrets.GH_APP_TOKEN}}
+      run: python3 tasks crawl
+
+    - name: Save cache
+      id: save-cache
+      uses: actions/cache/save@v3
+      if: always()
+      with:
+        path: |-
+          cache/
+          _site/libraries.json.sha512
+          blacklist.json
+        key: ${{ runner.os }}-state-${{ hashFiles('cache/*') }}
+
+    - name: Setup pages
+      id: setup-pages
+      if: steps.resolve-repository.outputs.updated == true
+      uses: actions/configure-pages@v3
+
+    - name: Upload pages
+      id: upload-pages
+      if: steps.resolve-repository.outputs.updated == true
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: _site/
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.updated == true
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy pages
+        id: deployment
+        uses: actions/deploy-pages@v2
