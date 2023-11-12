@@ -493,6 +493,26 @@
 			]
 		},
 		{
+			"name": "lsp_utils",
+			"author": "rchl",
+			"description": "Module with LSP-related utilities",
+			"issues": "https://github.com/sublimelsp/lsp_utils/issues",
+			"releases": [
+				{
+					"base": "https://github.com/sublimelsp/lsp_utils",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": "3154 - 4069",
+					"tags": "st3-v"
+				},
+				{
+					"base": "https://github.com/sublimelsp/lsp_utils",
+					"python_versions": ["3.3", "3.8"],
+					"sublime_text": ">=4070",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "lxml",
 			"description": "lxml",
 			"author": "eerohele",
