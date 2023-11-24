@@ -124,7 +124,7 @@ def run(
     # with open(root / "settings.json", encoding="utf-8") as fp:
     #     settings = json.load(fp)
 
-    repo_urls = ["repository.json"]
+    repo_urls = ["https://raw.githubusercontent.com/deathaxe/test-repository/main/repository.json"]
 
     broken_libraries = set()
     broken_packages = set()
@@ -147,7 +147,10 @@ def run(
             print(f"Fetching packages from {repo_url}...")
 
             try:
-                packages = [package for _, package in repo.get_packages(blacklist)]
+                packages = []
+                for _, info in repo.get_packages(blacklist):
+                    del info["sources"]
+                    packages.append(info)
             except Exception as e:
                 print(f"  Failed to fetch packages: {e}")
             else:
@@ -157,7 +160,10 @@ def run(
                     num_packages += len(packages)
 
             try:
-                libraries = [library for _, library in repo.get_libraries(blacklist)]
+                libraries = []
+                for _, info in repo.get_libraries(blacklist):
+                    del info["sources"]
+                    libraries.append(info)
             except Exception as e:
                 print(f"  Failed to fetch libraries: {e}")
             else:
@@ -213,10 +219,11 @@ def run(
 
     json_content = json.dumps(
         {
-            "$schema": "sublime://packagecontrol.io/schemas/repository",
+            "$schema": "sublime://packagecontrol.io/schemas/channel",
             "schema_version": "4.0.0",
-            "packages": packages_cache,
-            "libraries": libraries_cache
+            "repositories": repo_urls,
+            "packages_cache": packages_cache,
+            "libraries_cache": libraries_cache
         },
         cls=JsonDatetimeEncoder,
         check_circular=False,
@@ -228,7 +235,7 @@ def run(
         dist_dir = root / '_site'
     dist_dir.mkdir(exist_ok=True)
 
-    result = store_asset(dist_dir / 'libraries.json', json_content)
+    result = store_asset(dist_dir / 'channel_v4.json', json_content)
     if result:
         print("Stored resolved repository!")
     else:
