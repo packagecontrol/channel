@@ -30,17 +30,21 @@ jobs:
       id: checkout-repository
       uses: actions/checkout@v4
 
-    - name: Restore cache
-      id: restore-cache
+    - name: Restore http cache
+      id: restore-http-cache
       uses: actions/cache/restore@v3
       with:
-        path: |-
-          cache/
-          _site/libraries.json.sha512
-          blacklist.json
-        key: ${{ runner.os }}-state
-        restore-keys: |
-          ${{ runner.os }}-state
+        path: cache/
+        key: http-cache
+        restore-keys: http-cache
+
+    - name: Restore asset cache
+      id: restore-asset-cache
+      uses: actions/cache/restore@v3
+      with:
+        path: _site/channel_v4.json.sha512
+        key: asset-cache
+        restore-keys: asset-cache
 
     - name: Resolve repository
       id: resolve-repository
@@ -48,17 +52,6 @@ jobs:
         GH_USER: ${{secrets.GH_APP_ID}}
         GH_PASS: ${{secrets.GH_APP_TOKEN}}
       run: python3 tasks crawl
-
-    - name: Save cache
-      id: save-cache
-      uses: actions/cache/save@v3
-      if: always()
-      with:
-        path: |-
-          cache/
-          _site/libraries.json.sha512
-          blacklist.json
-        key: ${{ runner.os }}-state-${{ hashFiles('cache/*') }}
 
     - name: Setup pages
       id: setup-pages
@@ -71,6 +64,22 @@ jobs:
       uses: actions/upload-pages-artifact@v2
       with:
         path: _site/
+
+    - name: Save http cache
+      id: save-http-cache
+      uses: actions/cache/save@v3
+      if: always()
+      with:
+        path: cache/
+        key: http-cache-${{ hashFiles('cache/*') }}
+
+    - name: Save asset cache
+      id: save-asset-cache
+      uses: actions/cache/save@v3
+      if: always()
+      with:
+        path: _site/channel_v4.json.sha512
+        key: asset-cache-${{ hashFiles('_site/channel_v4.json.sha512') }}
 
   deploy:
     needs: build
