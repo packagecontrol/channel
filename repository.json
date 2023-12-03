@@ -201,16 +201,10 @@
 		},
 		{
 			"name": "coverage",
-			"description": "coverage.py - http://coverage.readthedocs.org/en/latest/",
-			"author": "wbond",
+			"description": "Code coverage testing for Python",
+			"author": "Ned Batchelder and 96 others",
 			"issues": "https://github.com/codexns/sublime-coverage/issues",
 			"releases": [
-				{
-					"base": "https://github.com/codexns/sublime-coverage",
-					"platforms": ["*"],
-					"python_versions": ["3.3"],
-					"tags": true
-				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp38-cp38-win_amd64.whl",
@@ -246,7 +240,8 @@
 					"asset": "coverage-*-cp38-cp38-macosx_11_0_arm64.whl",
 					"platforms": ["osx-arm64"],
 					"python_versions": ["3.8"]
-				},				{
+				},
+				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp38-cp38-macosx_10_9_x86_64.whl",
 					"platforms": ["osx-x64"],
