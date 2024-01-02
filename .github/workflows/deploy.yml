@@ -4,7 +4,7 @@ on:
   # Runs if repository is updated
   push:
     branches:
-      - $default-branch
+      - main
     paths:
       - repository.json
 
