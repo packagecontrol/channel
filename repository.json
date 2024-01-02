@@ -917,7 +917,7 @@
 				},
 				{
 					"base": "https://pypi.org/project/pywin32",
-					"asset": "pywinpty-*-cp38-none-win_amd64.whl",
+					"asset": "pywin32-*-cp38-cp38-win_amd64.whl",
 					"platforms": ["windows"],
 					"python_versions": ["3.8"]
 				}
