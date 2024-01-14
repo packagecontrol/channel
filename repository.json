@@ -1288,6 +1288,50 @@
 			]
 		},
 		{
+			"name": "tree_sitter_languages",
+			"description": "Binary Python wheels for all tree sitter languages.",
+			"author": "grantjenks",
+			"issues": "https://github.com/grantjenks/py-tree-sitter-languages/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/tree_sitter_languages",
+					"asset": "tree_sitter_languages-*-cp38-cp38-manylinux_2_17_aarch64*.whl",
+					"platforms": ["linux-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/tree_sitter_languages",
+					"asset": "tree_sitter_languages-*-cp38-cp38-manylinux_2_17_x86_64*.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/tree_sitter_languages",
+					"asset": "tree_sitter_languages-*-cp38-cp38-macosx_11_0_arm64.whl",
+					"platforms": ["osx-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/tree_sitter_languages",
+					"asset": "tree_sitter_languages-*-cp38-cp38-macosx_10_9_x86_64.whl",
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/tree_sitter_languages",
+					"asset": "tree_sitter_languages-*-cp38-cp38-win32.whl",
+					"platforms": ["windows-x32"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/tree_sitter_languages",
+					"asset": "tree_sitter_languages-*-cp38-cp38-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "typing",
 			"description": "Python typing module",
 			"author": "FichteFoll",
