@@ -2,4 +2,9 @@
 __pycache__/
 *.pyc
 
+# sublime text
 .sublime/
+
+# temporary files
+cache/
+_site/channel_*
