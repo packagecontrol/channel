@@ -124,7 +124,7 @@ def run(
     # with open(root / "settings.json", encoding="utf-8") as fp:
     #     settings = json.load(fp)
 
-    repo_urls = ["https://raw.githubusercontent.com/deathaxe/test-repository/main/repository.json"]
+    repo_urls = ["https://raw.githubusercontent.com/packagecontrol/channel/main/repository.json"]
 
     broken_libraries = set()
     broken_packages = set()
