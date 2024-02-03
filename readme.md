@@ -11,6 +11,6 @@ To make use of it, add the following lines to _Package Control.sublime-settings_
 ],
 ```
 
-> **Note**
+> [!NOTE]
 >
 > Keep the order, so items from this channel override those from default channel.
