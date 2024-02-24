@@ -68,7 +68,14 @@
 				{
 					"base": "https://github.com/jlegewie/sublime-beautifulsoup4",
 					"platforms": ["*"],
-					"python_versions": ["3.3", "3.8"],
+					"python_versions": ["3.3"],
+					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/beautifulsoup4",
+					"asset": "beautifulsoup4-*-py3-none-any.whl",
+					"platforms": ["*"],
+					"python_versions": ["3.8"],
 					"tags": true
 				}
 			]
