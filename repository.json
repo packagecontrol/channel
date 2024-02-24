@@ -489,8 +489,14 @@
 				{
 					"base": "https://github.com/kylebebak/sublime-jsonschema",
 					"platforms": ["*"],
-					"python_versions": ["3.3", "3.8"],
+					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/jsonschema",
+					"asset": "jsonschema-*-py3-none-any.whl",
+					"platforms": ["*"],
+					"python_versions": ["3.8"]
 				}
 			]
 		},
