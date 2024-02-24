@@ -173,8 +173,14 @@
 				{
 					"base": "https://github.com/Umoxfo/sublime-chardet",
 					"platforms": ["*"],
-					"python_versions": ["3.3", "3.8"],
+					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/chardet",
+					"asset": "chardet-*-py3-none-any.whl",
+					"platforms": ["*"],
+					"python_versions": ["3.8"]
 				}
 			]
 		},
