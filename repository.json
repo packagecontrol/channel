@@ -841,8 +841,14 @@
 				{
 					"base": "https://github.com/packagecontrol/ptyprocess",
 					"platforms": ["*"],
-					"python_versions": ["3.3", "3.8"],
+					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/ptyprocess",
+					"asset": "ptyprocess-*-py2.py3-none-any.whl",
+					"platforms": ["*"],
+					"python_versions": ["3.8"]
 				}
 			]
 		},
