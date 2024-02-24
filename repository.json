@@ -469,8 +469,14 @@
 				{
 					"base": "https://github.com/packagecontrol/jinja2",
 					"platforms": ["*"],
-					"python_versions": ["3.3", "3.8"],
+					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/Jinja2",
+					"asset": "Jinja2-*-py3-none-any.whl",
+					"platforms": ["*"],
+					"python_versions": ["3.8"]
 				}
 			]
 		},
