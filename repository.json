@@ -799,6 +799,36 @@
 					"platforms": ["osx-x64","windows","linux"],
 					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/psutil",
+					"asset": "psutil-*-cp38-*-manylinux_*_x86_64.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/psutil",
+					"asset": "psutil-*-cp38-*-macosx_*_arm64.whl",
+					"platforms": ["osx-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/psutil",
+					"asset": "psutil-*-cp38-*-macosx_*_x86_64.whl",
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/psutil",
+					"asset": "psutil-*-cp38-*-win32.whl",
+					"platforms": ["windows-x32"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/psutil",
+					"asset": "psutil-*-cp38-*-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
 				}
 			]
 		},
