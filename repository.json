@@ -377,20 +377,6 @@
 			]
 		},
 		{
-			"name": "docx",
-			"description": "Python DOCX Module",
-			"author": "WriteML",
-			"issues": "https://github.com/writeml/sublime-docx/issues",
-			"releases": [
-				{
-					"base": "https://github.com/writeml/sublime-docx",
-					"platforms": ["*"],
-					"python_versions": ["3.3", "3.8"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "emojitations",
 			"description": "A library for using Unicode emoji annotations - https://github.com/kcsaff/emojitations",
 			"author": "idleberg",
@@ -944,6 +930,20 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pyte",
+					"platforms": ["*"],
+					"python_versions": ["3.3", "3.8"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "python-docx",
+			"description": "Python DOCX Module",
+			"author": "WriteML",
+			"issues": "https://github.com/writeml/sublime-docx/issues",
+			"releases": [
+				{
+					"base": "https://github.com/writeml/sublime-docx",
 					"platforms": ["*"],
 					"python_versions": ["3.3", "3.8"],
 					"tags": true
