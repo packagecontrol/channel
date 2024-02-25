@@ -1443,8 +1443,14 @@
 				{
 					"base": "https://github.com/packagecontrol/wcwidth",
 					"platforms": ["*"],
-					"python_versions": ["3.3", "3.8"],
+					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/wcwidth",
+					"asset": "wcwidth-*-py2.py3-none-any.whl",
+					"platforms": ["*"],
+					"python_versions": ["3.8"]
 				}
 			]
 		},
