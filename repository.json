@@ -957,10 +957,9 @@
 			"issues": "https://github.com/packagecontrol/pytz/issues",
 			"releases": [
 				{
-					"base": "https://github.com/packagecontrol/pytz",
-					"platforms": ["*"],
-					"python_versions": ["3.3", "3.8"],
-					"tags": true
+					"base": "https://pypi.org/project/pytz",
+					"asset": "pytz-*-py2.py3-none-any.whl",
+					"python_versions": ["3.3", "3.8"]
 				}
 			]
 		},
