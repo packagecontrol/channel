@@ -51,7 +51,7 @@ jobs:
         env:
           GH_USER: ${{secrets.GH_APP_ID}}
           GH_PASS: ${{secrets.GH_APP_TOKEN}}
-        run: python3 tasks crawl
+        run: python tasks crawl
 
       - name: Setup pages
         id: setup-pages
