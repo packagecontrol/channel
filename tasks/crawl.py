@@ -31,15 +31,16 @@ settings = {
     "user_agent": "Package Control Crawler 4.0"
 }
 
+
 class JsonDatetimeEncoder(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, datetime.datetime):
-            return obj.strftime('%Y-%m-%d %H:%M:%S')
+    def default(self, o):
+        if isinstance(o, datetime.datetime):
+            return o.strftime('%Y-%m-%d %H:%M:%S')
 
-        if isinstance(obj, Decimal):
-            return float(obj)
+        if isinstance(o, Decimal):
+            return float(o)
 
-        return json.JSONEncoder.default(self, obj)
+        return json.JSONEncoder.default(self, o)
 
 
 def store_asset(path: Path, content: str):
