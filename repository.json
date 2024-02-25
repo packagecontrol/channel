@@ -924,14 +924,14 @@
 		},
 		{
 			"name": "python-docx",
-			"description": "Python DOCX Module",
-			"author": "WriteML",
-			"issues": "https://github.com/writeml/sublime-docx/issues",
+			"description": "Create, read, and update Microsoft Word .docx files.",
+			"author": "Python OpenXML Team",
+			"issues": "https://github.com/python-openxml/python-docx/issues",
 			"releases": [
 				{
-					"base": "https://github.com/writeml/sublime-docx",
-					"python_versions": ["3.3", "3.8"],
-					"tags": true
+					"base": "https://pypi.org/project/python-docx",
+					"asset": "python_docx-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
