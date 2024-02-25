@@ -29,7 +29,7 @@ def main_parser() -> argparse.ArgumentParser:
     return parser
 
 
-def main():
+def main() -> None:
     parser = main_parser()
     args = parser.parse_args()
 

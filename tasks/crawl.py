@@ -42,7 +42,7 @@ class JsonDatetimeEncoder(json.JSONEncoder):
         return json.JSONEncoder.default(self, obj)
 
 
-def store_asset(filename, content):
+def store_asset(path: Path, content: str):
     """
     Stores an asset uncompressed and as gzip, bzip2 archive.
 
@@ -51,7 +51,7 @@ def store_asset(filename, content):
     :param content:
         The content
     """
-    filename         = str(filename)
+    filename         = str(path)
     new_filename     = filename + '-new'
     new_filename_gz  = filename + '.gz-new'
     new_filename_bz2 = filename + '.bz2-new'
@@ -102,11 +102,11 @@ def store_asset(filename, content):
 
 
 def run(
-    cache_dir=None,
-    dist_dir=None
+    cache_dir: Path | None = None,
+    dist_dir: Path | None = None
 ):
     # determine root path
-    root = Path().cwd()
+    root = Path.cwd()
 
     # adjust cache path
     if not cache_dir:
@@ -190,11 +190,10 @@ def run(
 
         if url_to_review:
             print("Missing Sources (needs review):")
-            url_to_review = sorted(url_to_review)
-            for url in url_to_review:
+            for url in sorted(url_to_review):
                 print(f"  {url}")
 
-            blacklist = sorted(set(blacklist) | set(url_to_review))
+            blacklist = sorted(set(blacklist) | url_to_review)
 
             with open(root / "blacklist.json", mode="w", encoding="utf-8") as fp:
                 json.dump(blacklist, fp, indent=4)
