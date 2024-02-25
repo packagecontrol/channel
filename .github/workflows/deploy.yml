@@ -7,10 +7,11 @@ on:
       - main
     paths:
       - repository.json
+      - .github/workflows/deploy.yml
 
   # Runs daily at 00:00 UTC to fetch possible library updates
   schedule:
-  - cron: "0 0 * * *"
+    - cron: "0 0 * * *"
 
   workflow_dispatch:
 
@@ -20,66 +21,66 @@ jobs:
     outputs:
       updated: ${{ steps.resolve-repository.outputs.updated }}
     steps:
-    - name: Set up python
-      id: setup-python
-      uses: actions/setup-python@v5
-      with:
-        python-version: 3.11
+      - name: Set up python
+        id: setup-python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
 
-    - name: Checkout repository
-      id: checkout-repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        id: checkout-repository
+        uses: actions/checkout@v4
 
-    - name: Restore http cache
-      id: restore-http-cache
-      uses: actions/cache/restore@v4
-      with:
-        path: cache/
-        key: http-cache
-        restore-keys: http-cache
+      - name: Restore http cache
+        id: restore-http-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: cache/
+          key: http-cache
+          restore-keys: http-cache
 
-    - name: Restore asset cache
-      id: restore-asset-cache
-      uses: actions/cache/restore@v4
-      with:
-        path: _site/channel_v4.json.sha512
-        key: asset-cache
-        restore-keys: asset-cache
+      - name: Restore asset cache
+        id: restore-asset-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: _site/channel_v4.json.sha512
+          key: asset-cache
+          restore-keys: asset-cache
 
-    - name: Resolve repository
-      id: resolve-repository
-      env:
-        GH_USER: ${{secrets.GH_APP_ID}}
-        GH_PASS: ${{secrets.GH_APP_TOKEN}}
-      run: python3 tasks crawl
+      - name: Resolve repository
+        id: resolve-repository
+        env:
+          GH_USER: ${{secrets.GH_APP_ID}}
+          GH_PASS: ${{secrets.GH_APP_TOKEN}}
+        run: python tasks crawl
 
-    - name: Setup pages
-      id: setup-pages
-      if: steps.resolve-repository.outputs.updated == 'true'
-      uses: actions/configure-pages@v4
+      - name: Setup pages
+        id: setup-pages
+        if: steps.resolve-repository.outputs.updated == 'true'
+        uses: actions/configure-pages@v4
 
-    - name: Upload pages
-      id: upload-pages
-      if: steps.resolve-repository.outputs.updated == 'true'
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: _site/
+      - name: Upload pages
+        id: upload-pages
+        if: steps.resolve-repository.outputs.updated == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site/
 
-    - name: Save http cache
-      id: save-http-cache
-      uses: actions/cache/save@v4
-      if: always()
-      with:
-        path: cache/
-        key: http-cache-${{ hashFiles('cache/*') }}
+      - name: Save http cache
+        id: save-http-cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: cache/
+          key: http-cache-${{ hashFiles('cache/*') }}
 
-    - name: Save asset cache
-      id: save-asset-cache
-      uses: actions/cache/save@v4
-      if: always()
-      with:
-        path: _site/channel_v4.json.sha512
-        key: asset-cache-${{ hashFiles('_site/channel_v4.json.sha512') }}
+      - name: Save asset cache
+        id: save-asset-cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: _site/channel_v4.json.sha512
+          key: asset-cache-${{ hashFiles('_site/channel_v4.json.sha512') }}
 
   deploy:
     needs: build

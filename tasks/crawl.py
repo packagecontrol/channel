@@ -1,6 +1,7 @@
 import bz2
 import gzip
 import datetime
+import io
 import json
 import os
 import time
@@ -9,6 +10,7 @@ import hashlib
 from decimal import Decimal
 
 from pathlib import Path
+from typing import Callable
 from urllib.error import HTTPError
 
 from lib.package_control import sys_path
@@ -31,18 +33,29 @@ settings = {
     "user_agent": "Package Control Crawler 4.0"
 }
 
+
 class JsonDatetimeEncoder(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, datetime.datetime):
-            return obj.strftime('%Y-%m-%d %H:%M:%S')
+    def default(self, o):
+        if isinstance(o, datetime.datetime):
+            return o.strftime('%Y-%m-%d %H:%M:%S')
 
-        if isinstance(obj, Decimal):
-            return float(obj)
+        if isinstance(o, Decimal):
+            return float(o)
 
-        return json.JSONEncoder.default(self, obj)
+        return json.JSONEncoder.default(self, o)
 
 
-def store_asset(filename, content):
+# Generic type annotations for callable parameters are complicated,
+# so we ignore that here for now.
+def atomic_write_file(target_path: Path, opener: Callable[..., io.IOBase], content: bytes):
+    out_path = target_path.with_name(target_path.name + '-new')
+    with opener(out_path, 'wb') as f:
+        f.write(content)
+    target_path.unlink(missing_ok=True)
+    out_path.rename(target_path)
+
+
+def store_asset(path: Path, content: str):
     """
     Stores an asset uncompressed and as gzip, bzip2 archive.
 
@@ -51,13 +64,7 @@ def store_asset(filename, content):
     :param content:
         The content
     """
-    filename         = str(filename)
-    new_filename     = filename + '-new'
-    new_filename_gz  = filename + '.gz-new'
-    new_filename_bz2 = filename + '.bz2-new'
-    filename_gz      = filename + '.gz'
-    filename_bz2     = filename + '.bz2'
-    filename_sha512  = filename + '.sha512'
+    filename_sha512  = path.with_suffix(path.suffix + '.sha512')
 
     encoded_content = content.encode('utf-8')
     content_hash = hashlib.sha512(encoded_content).hexdigest().encode('utf-8')
@@ -71,29 +78,9 @@ def store_asset(filename, content):
     except FileNotFoundError:
         pass
 
-    with open(new_filename, 'wb') as f:
-        f.write(encoded_content)
-    try:
-        os.unlink(filename)
-    except FileNotFoundError:
-        pass
-    os.rename(new_filename, filename)
-
-    with gzip.open(new_filename_gz, 'w') as f:
-        f.write(encoded_content)
-    try:
-        os.unlink(filename_gz)
-    except FileNotFoundError:
-        pass
-    os.rename(new_filename_gz, filename_gz)
-
-    with bz2.open(new_filename_bz2, 'w') as f:
-        f.write(encoded_content)
-    try:
-        os.unlink(filename_bz2)
-    except FileNotFoundError:
-        pass
-    os.rename(new_filename_bz2, filename_bz2)
+    atomic_write_file(path, open, encoded_content)
+    atomic_write_file(path.with_suffix('.gz'), gzip.open, encoded_content)
+    atomic_write_file(path.with_suffix('.bz2'), bz2.open, encoded_content)
 
     with open(filename_sha512, 'wb') as f:
         f.write(content_hash)
@@ -102,11 +89,11 @@ def store_asset(filename, content):
 
 
 def run(
-    cache_dir=None,
-    dist_dir=None
+    cache_dir: Path | None = None,
+    dist_dir: Path | None = None
 ):
     # determine root path
-    root = Path().cwd()
+    root = Path.cwd()
 
     # adjust cache path
     if not cache_dir:
@@ -190,11 +177,10 @@ def run(
 
         if url_to_review:
             print("Missing Sources (needs review):")
-            url_to_review = sorted(url_to_review)
-            for url in url_to_review:
+            for url in sorted(url_to_review):
                 print(f"  {url}")
 
-            blacklist = sorted(set(blacklist) | set(url_to_review))
+            blacklist = sorted(set(blacklist) | url_to_review)
 
             with open(root / "blacklist.json", mode="w", encoding="utf-8") as fp:
                 json.dump(blacklist, fp, indent=4)
