@@ -1376,6 +1376,19 @@
 			]
 		},
 		{
+			"name": "typing-extensions",
+			"description": "Backported and Experimental Type Hints for Python 3.8+",
+			"author": "python",
+			"issues": "https://github.com/python/typing_extensions/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/typing-extensions",
+					"asset": "typing_extensions-.-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "watchdog",
 			"description": "Python library to monitor filesystem events http://packages.python.org/watchdog/",
 			"author": "vovkkk",
