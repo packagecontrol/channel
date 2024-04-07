@@ -1158,6 +1158,19 @@
 			]
 		},
 		{
+			"name": "soupsieve",
+			"description": "A modern CSS selector implementation for Beautiful Soup. - https://github.com/facelessuser/soupsieve",
+			"author": "facelessuser",
+			"issues": "https://github.com/facelessuser/soupsieve/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/soupsieve",
+					"python_versions": ["3.8"],
+					"asset": "soupsieve-*-py3-none-any.whl"
+				}
+			]
+		},
+		{
 			"name": "speg",
 			"description": "A PEG-based parser interpreter with memoization - https://github.com/avakar/speg",
 			"author": "idleberg",
