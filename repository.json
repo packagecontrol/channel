@@ -1391,7 +1391,7 @@
 			"releases": [
 				{
 					"base": "https://pypi.org/project/typing-extensions",
-					"asset": "typing_extensions-.-py3-none-any.whl",
+					"asset": "typing_extensions-*-py3-none-any.whl",
 					"python_versions": ["3.8"]
 				}
 			]
