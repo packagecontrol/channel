@@ -422,6 +422,19 @@
 			]
 		},
 		{
+			"name": "more-itertools",
+			"description": "More routines for operating on iterables, beyond itertools",
+			"author": "Erik Rose",
+			"issues": "https://github.com/more-itertools/more-itertools/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/more-itertools",
+					"asset": "more_itertools-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "Jinja2",
 			"description": "Python Jinja2 module",
 			"author": "FichteFoll",
