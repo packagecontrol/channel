@@ -1410,6 +1410,19 @@
 			]
 		},
 		{
+			"name": "vision",
+			"description": "Vision is a minihtml generation library for Sublime Text that enforces minihtml restrictions for tags, styles and attrivutes",
+			"author": "terminalfi",
+			"issues": "https://github.com/terminalfi/vision/issues",
+			"releases": [
+				{
+					"base": "https://github.com/terminalfi/vision",
+					"python_versions": ["3.8"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "watchdog",
 			"description": "Python library to monitor filesystem events http://packages.python.org/watchdog/",
 			"author": "vovkkk",
