@@ -839,19 +839,6 @@
 			]
 		},
 		{
-			"name": "pushdownparser",
-			"description": "A modern parsing library for Python, implementing Earley & LALR(1) and an easy interface",
-			"author": "evandrocoan",
-			"issues": "https://github.com/evandrocoan/pushdownparser/issues",
-			"releases": [
-				{
-					"base": "https://github.com/evandrocoan/pushdownparser",
-					"python_versions": ["3.3"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "PyCrypto",
 			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
 			"author": "jlegewie",
