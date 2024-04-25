@@ -37,7 +37,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/dvhh/sublime-backports.lzma",
-					"platforms": ["windows"],
+					"platforms": ["windows-x32", "windows-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
 				}
@@ -135,6 +135,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/codexns/sublime-bz2",
+					"platforms": ["osx-x64", "linux-x32", "linux-x64", "windows-x32", "windows-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
 				}
@@ -285,7 +286,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/adnanyaqoobvirk/sublime-crypt",
-					"platforms": ["linux"],
+					"platforms": ["linux-x32", "linux-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
 				}
@@ -846,7 +847,6 @@
 			"releases": [
 				{
 					"base": "https://github.com/jlegewie/sublime-PyCrypto",
-					"platforms": ["osx-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
 				}
@@ -956,7 +956,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pywin32",
-					"platforms": ["windows"],
+					"platforms": ["windows-x32", "windows-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
 				},
@@ -976,7 +976,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pywinpty",
-					"platforms": ["windows"],
+					"platforms": ["windows-x32", "windows-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
 				},
@@ -1009,6 +1009,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pyzmq",
+					"platforms": ["osx-x64", "linux-x32", "linux-x64", "windows-x32", "windows-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
 				}
@@ -1100,6 +1101,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/blitzrk/sublime_sassc",
+					"platforms": ["osx-x64", "linux-x32", "linux-x64", "windows-x32", "windows-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
 				}
@@ -1126,6 +1128,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/codexns/sublime-select-windows",
+					"platforms": ["windows-x32", "windows-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
 				}
@@ -1191,13 +1194,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/codexns/sublime-sqlite3",
-					"platforms": ["windows","linux"],
-					"python_versions": ["3.3"],
-					"tags": true
-				},
-				{
-					"base": "https://github.com/codexns/sublime-sqlite3",
-					"platforms": ["osx"],
+					"platforms": ["osx-x64", "linux-x32", "linux-x64", "windows-x32", "windows-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
 				}
@@ -1237,7 +1234,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/claytonlemons/SublimeP4Python",
-					"platforms": ["windows"],
+					"platforms": ["windows-x32", "windows-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
 				}
