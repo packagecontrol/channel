@@ -1432,8 +1432,13 @@
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-wcmatch",
-					"python_versions": ["3.3", "3.8"],
+					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/wcmatch",
+					"asset": "wcmatch-*-py3-none-any",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
