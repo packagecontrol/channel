@@ -4,6 +4,19 @@
 	"packages": [],
 	"libraries": [
 		{
+			"name": "annotated-types",
+			"description": "Reusable constraint types to use with typing.Annotated.",
+			"author": "adriangb",
+			"issues": "https://github.com/annotated-types/annotated-types/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/annotated-types",
+					"asset": "annotated_types-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "anytree",
 			"description": "Python Anytree module - https://github.com/c0fec0de/anytree",
 			"author": "c0fec0de",
@@ -854,6 +867,63 @@
 					"base": "https://github.com/jlegewie/sublime-PyCrypto",
 					"python_versions": ["3.3"],
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "pydantic",
+			"description": "Data validation using Python type hints.",
+			"author": "samuelcolvin",
+			"issues": "https://github.com/pydantic/pydantic/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/pydantic",
+					"asset": "pydantic-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
+			"name": "pydantic-core",
+			"description": "Core functionality for Pydantic validation and serialization.",
+			"author": "samuelcolvin",
+			"issues": "https://github.com/pydantic/pydantic-core/issues",
+			"releases": [
+				{
+					"platforms": ["windows-x32"],
+					"base": "https://pypi.org/project/pydantic-core",
+					"asset": "pydantic_core-*-cp38-none-win32.whl",
+					"python_versions": ["3.8"]
+				},
+				{
+					"platforms": ["windows-x64"],
+					"base": "https://pypi.org/project/pydantic-core",
+					"asset": "pydantic_core-*-cp38-none-win_amd64.whl",
+					"python_versions": ["3.8"]
+				},
+				{
+					"platforms": ["linux-x64"],
+					"base": "https://pypi.org/project/pydantic-core",
+					"asset": "pydantic_core-*-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl ",
+					"python_versions": ["3.8"]
+				},
+				{
+					"platforms": ["linux-arm64"],
+					"base": "https://pypi.org/project/pydantic-core",
+					"asset": "pydantic_core-*-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+					"python_versions": ["3.8"]
+				},
+				{
+					"platforms": ["osx-x64"],
+					"base": "https://pypi.org/project/pydantic-core",
+					"asset": "pydantic_core-*-cp38-cp38-macosx_10_12_x86_64.whl",
+					"python_versions": ["3.8"]
+				},
+				{
+					"platforms": ["osx-arm64"],
+					"base": "https://pypi.org/project/pydantic-core",
+					"asset": "pydantic_core-*-cp38-cp38-macosx_11_0_arm64.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
