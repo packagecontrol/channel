@@ -1080,8 +1080,13 @@
 			"releases": [
 				{
 					"base": "https://github.com/Thom1729/sublime-ruamel",
-					"python_versions": ["3.3", "3.8"],
+					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/ruamel.yaml",
+					"asset": "ruamel.yaml-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
