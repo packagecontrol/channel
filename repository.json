@@ -459,6 +459,19 @@
 			]
 		},
 		{
+			"name": "jmespath",
+			"description": "JSON Matching Expressions",
+			"author": "jamesls",
+			"issues": "https://github.com/jmespath/jmespath.py/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/jmespath",
+					"asset": "jmespath-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "jsonschema",
 			"description": "An(other) implementation of JSON Schema for Python",
 			"author": "kylebebak",
