@@ -402,6 +402,19 @@
 			]
 		},
 		{
+			"name": "eval-type-backport",
+			"description": "Like `typing._eval_type`, but lets older Python versions use newer typing features.",
+			"author": "alexmojaki",
+			"issues": "https://github.com/alexmojaki/eval_type_backport/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/eval-type-backport",
+					"asset": "eval_type_backport-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "gateone-terminal",
 			"description": "GateOne terminal",
 			"author": "randy3k",
