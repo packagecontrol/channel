@@ -1558,14 +1558,19 @@
 		},
 		{
 			"name": "websocket-client",
-			"description": "Python websocket client library https://github.com/websocket-client/websocket-client",
-			"author": "jcoc611",
-			"issues": "https://github.com/packagecontrol/sublime-websocket-client/issues",
+			"description": "WebSocket client for Python with low level API options",
+			"author": "liris",
+			"issues": "https://github.com/websocket-client/websocket-client/issues",
 			"releases": [
 				{
-					"base": "https://github.com/packagecontrol/sublime-websocket-client",
-					"python_versions": ["3.3"],
-					"tags": true
+					"base": "https://pypi.org/project/websocket-client",
+					"asset": "websocket_client-*-py2.py3-none-any.whl",
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/websocket-client",
+					"asset": "websocket_client-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
