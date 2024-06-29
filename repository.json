@@ -1601,7 +1601,7 @@
 				{
 					"platforms": ["windows-x64"],
 					"base": "https://pypi.org/project/websockets",
-					"asset": "websockets-*-cp38-cp38-win32.whl ",
+					"asset": "websockets-*-cp38-cp38-win_amd64.whl",
 					"python_versions": ["3.8"]
 				},
 				{
