@@ -173,14 +173,14 @@
 		},
 		{
 			"name": "chardet",
-			"description": "Universal encoding detector for Python 2 and 3 https://github.com/chardet/chardet",
-			"author": "Umoxfo",
-			"issues": "https://github.com/Umoxfo/sublime-chardet/issues",
+			"description": "The Universal Character Encoding Detector",
+			"author": "chardet",
+			"issues": "https://github.com/chardet/chardet/issues",
 			"releases": [
 				{
-					"base": "https://github.com/Umoxfo/sublime-chardet",
-					"python_versions": ["3.3"],
-					"tags": true
+					"base": "https://pypi.org/project/chardet",
+					"asset": "chardet-*-py2.py3-none-any.whl",
+					"python_versions": ["3.3"]
 				},
 				{
 					"base": "https://pypi.org/project/chardet",
