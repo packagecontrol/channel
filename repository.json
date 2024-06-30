@@ -1607,13 +1607,13 @@
 				{
 					"platforms": ["linux-x64"],
 					"base": "https://pypi.org/project/websockets",
-					"asset": "websockets-*-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+					"asset": "websockets-*-cp38-cp38-manylinux_2_5_x86_64*.whl",
 					"python_versions": ["3.8"]
 				},
 				{
 					"platforms": ["linux-arm64"],
 					"base": "https://pypi.org/project/websockets",
-					"asset": "websockets-*-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+					"asset": "websockets-*-cp38-cp38-manylinux_2_17_aarch64*.whl",
 					"python_versions": ["3.8"]
 				},
 				{
