@@ -72,19 +72,18 @@
 		{
 			"name": "beautifulsoup4",
 			"description": "Beautiful Soup is a Python library for pulling data out of HTML and XML files - https://www.crummy.com/software/BeautifulSoup/",
-			"author": "jlegewie",
-			"issues": "https://github.com/jlegewie/sublime-beautifulsoup4/issues",
+			"author": "Leonard Richardson",
+			"issues": "https://bugs.launchpad.net/beautifulsoup/",
 			"releases": [
 				{
-					"base": "https://github.com/jlegewie/sublime-beautifulsoup4",
-					"python_versions": ["3.3"],
-					"tags": true
+					"base": "https://pypi.org/project/beautifulsoup4",
+					"asset": "beautifulsoup4-*-py3-none-any.whl",
+					"python_versions": ["3.3"]
 				},
 				{
 					"base": "https://pypi.org/project/beautifulsoup4",
 					"asset": "beautifulsoup4-*-py3-none-any.whl",
-					"python_versions": ["3.8"],
-					"tags": true
+					"python_versions": ["3.8"]
 				}
 			]
 		},
