@@ -611,20 +611,6 @@
 			]
 		},
 		{
-			"name": "lzma",
-			"description": "Python lzma module",
-			"author": "ehamiter",
-			"issues": "https://github.com/ehamiter/sublime-lzma/issues",
-			"releases": [
-				{
-					"base": "https://github.com/ehamiter/sublime-lzma",
-					"platforms": ["osx-x64"],
-					"python_versions": ["3.3"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Markdown",
 			"description": "Python Markdown module",
 			"author": "facelessuser",
