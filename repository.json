@@ -740,6 +740,19 @@
 			]
 		},
 		{
+			"name": "openai",
+			"description": "The official Python library for the openai API",
+			"author": "terminalfi",
+			"issues": "https://www.github.com/openai/openai-python/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/openai",
+					"asset": "openai-1.35.10-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "package_events",
 			"description": "Allows Sublime Text packages to emit and listen for events",
 			"author": "wbond",
