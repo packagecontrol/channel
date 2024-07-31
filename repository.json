@@ -1490,6 +1490,56 @@
 			]
 		},
 		{
+			"name": "tornado",
+			"description": "Tornado is a Python web framework and asynchronous networking library.",
+			"author": "FriendFeed",
+			"issues": "https://github.com/tornadoweb/tornado/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/tornado",
+					"asset": "tornado-*-cp38-*-macosx_*_universal2.whl",
+					"platforms": ["osx-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/tornado",
+					"asset": "tornado-*-cp38-*-macosx_*_x86_64.whl",
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/tornado",
+					"asset": "tornado-*-cp38-*-manylinux_*_aarch64.whl",
+					"platforms": ["linux-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/tornado",
+					"asset": "tornado-*-cp38-*-manylinux_*_i686.whl",
+					"platforms": ["linux-x32"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/tornado",
+					"asset": "tornado-*-cp38-*-manylinux_*_x86_64.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/tornado",
+					"asset": "tornado-*-cp38-*-win32.whl",
+					"platforms": ["windows-x32"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/tornado",
+					"asset": "tornado-*-cp38-*-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "tree-sitter",
 			"description": "Python bindings to the Tree-sitter parsing library",
 			"author": "tree-sitter",
