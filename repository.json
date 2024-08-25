@@ -740,6 +740,44 @@
 			]
 		},
 		{
+			"name": "orjson",
+			"description": "orjson is a fast, correct JSON library for Python.",
+			"author": "ijl",
+			"issues": "https://github.com/ijl/orjson/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/orjson",
+					"asset": "orjson-*-cp38-cp38-manylinux_2_17*_aarch64.whl",
+					"platforms": ["linux-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/orjson",
+					"asset": "orjson-*-cp38-cp38-manylinux_2_17*_x86_64.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/orjson",
+					"asset": "orjson-*-cp38-cp38-macosx_*_universal2.whl",
+					"platforms": ["osx-arm64", "osx-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/orjson",
+					"asset": "orjson-*-cp38-*-win32.whl",
+					"platforms": ["windows-x32"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/orjson",
+					"asset": "orjson-*-cp38-*-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "package_events",
 			"description": "Allows Sublime Text packages to emit and listen for events",
 			"author": "wbond",
