@@ -1265,14 +1265,56 @@
 		},
 		{
 			"name": "regex",
-			"description": "Regex Module",
-			"author": "facelessuser",
-			"issues": "https://github.com/facelessuser/sublime-regex/issues",
+			"description": "Alternative regular expression module, to replace re.",
+			"author": "Matthew Barnett",
+			"issues": "https://github.com/mrabarnett/mrab-regex/issues",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-regex",
 					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/regex",
+					"asset": "regex-*-cp38-cp38-macosx_*_universal2.whl",
+					"platforms": ["osx-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/regex",
+					"asset": "regex-*-cp38-cp38-macosx_*_x86_64.whl",
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/regex",
+					"asset": "regex-*-cp38-cp38-manylinux_*_aarch64.whl",
+					"platforms": ["linux-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/regex",
+					"asset": "regex-*-cp38-cp38-manylinux_*_i686.whl",
+					"platforms": ["linux-x32"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/regex",
+					"asset": "regex-*-cp38-cp38-manylinux_*_x86_64.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/regex",
+					"asset": "regex-*-cp38-cp38-win32.whl",
+					"platforms": ["windows-x32"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/regex",
+					"asset": "regex-*-cp38-cp38-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
 				}
 			]
 		},
