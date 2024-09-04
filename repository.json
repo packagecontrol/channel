@@ -228,6 +228,50 @@
 			]
 		},
 		{
+			"name": "charset-normalizer",
+			"description": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+			"author": "Ahmed TAHRI",
+			"issues": "https://github.com/jawah/charset_normalizer/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/charset-normalizer",
+					"asset": "charset_normalizer-*-cp38-cp38-manylinux_2_17*_aarch64.whl",
+					"platforms": ["linux-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/charset-normalizer",
+					"asset": "charset_normalizer-*-cp38-cp38-manylinux_2_17*_x86_64.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/charset-normalizer",
+					"asset": "charset_normalizer-*-cp38-cp38-macosx_*_x86_64.whl",
+					"platforms": ["osx-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/charset-normalizer",
+					"asset": "charset_normalizer-*-cp38-cp38-macosx_*_universal2.whl",
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/charset-normalizer",
+					"asset": "charset_normalizer-*-cp38-cp38-win32.whl",
+					"platforms": ["windows-x32"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/charset-normalizer",
+					"asset": "charset_normalizer-*-cp38-cp38-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "coloraide",
 			"description": "A color library.",
 			"author": "facelessuser",
@@ -487,6 +531,19 @@
 					"base": "https://github.com/golang/sublime-config",
 					"python_versions": ["3.3"],
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "idna",
+			"description": "Internationalized Domain Names in Applications (IDNA)",
+			"author": "Kim Davies",
+			"issues": "https://github.com/kjd/idna/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/idna",
+					"asset": "idna-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
@@ -1278,27 +1335,37 @@
 		},
 		{
 			"name": "requests",
-			"description": "Python requests module",
-			"author": "FichteFoll",
-			"issues": "https://github.com/packagecontrol/requests/issues",
+			"description": "Python HTTP for Humans.",
+			"author": "Kenneth Reitz",
+			"issues": "https://github.com/psf/requests/issues",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/requests",
 					"python_versions": ["3.3", "3.8"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/requests",
+					"asset": "requests-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
 		{
 			"name": "requests-oauthlib",
-			"description": "Python requests-oauthlib module",
-			"author": "csch0",
-			"issues": "https://github.com/packagecontrol/requests-oauthlib/issues",
+			"description": "OAuthlib authentication support for Requests.",
+			"author": "Kenneth Reitz",
+			"issues": "https://github.com/requests/requests-oauthlib/issues",
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/requests-oauthlib",
-					"python_versions": ["3.3", "3.8"],
+					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/requests-oauthlib",
+					"asset": "requests_oauthlib-*-py2.py3-none-any.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
@@ -1687,6 +1754,19 @@
 				{
 					"base": "https://pypi.org/project/typing-extensions",
 					"asset": "typing_extensions-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
+			"name": "urllib3",
+			"description": "HTTP library with thread-safe connection pooling, file post, and more.",
+			"author": "Andrey Petrov",
+			"issues": "https://github.com/urllib3/urllib3/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/urllib3",
+					"asset": "urllib3-*-py3-none-any.whl",
 					"python_versions": ["3.8"]
 				}
 			]
