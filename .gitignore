@@ -8,3 +8,7 @@ __pycache__/
 # temporary files
 cache/
 _site/channel_*
+
+# local scripts
+*.cmd
+*.sh
