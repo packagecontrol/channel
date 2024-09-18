@@ -272,7 +272,7 @@
 			]
 		},
 		{
-			"name": "libcodemp",
+			"name": "codemp",
 			"description": "codemp - collaborative editing library",
 			"author": ["alemi", "cschen", "fraaz", "frelodev"],
 			"issues": "https://github.com/hexedtech/codemp/issues",
