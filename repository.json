@@ -279,7 +279,7 @@
 			"releases": [
 				{
 					"base": "https://pypi.org/project/codemp/",
-					"asset": "codemp-*-cp38-abi3-win_amd64.whl ",
+					"asset": "codemp-*-cp38-none-win_amd64.whl",
 					"platforms": ["windows-x64"],
 					"python_versions": ["3.8"]
 				},
