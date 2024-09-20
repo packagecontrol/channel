@@ -272,6 +272,32 @@
 			]
 		},
 		{
+			"name": "codemp",
+			"description": "codemp - collaborative editing library",
+			"author": ["alemi", "cschen", "fraaz", "frelodev"],
+			"issues": "https://github.com/hexedtech/codemp/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/codemp/",
+					"asset": "codemp-*-cp38-none-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/codemp/",
+					"asset": "codemp-*-cp38-abi3-manylinux_2_34_x86_64*.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/codemp/",
+					"asset": "codemp-*-cp38-abi3-macosx_11_0_arm64.whl",
+					"platforms": ["osx-arm64"],
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "coloraide",
 			"description": "A color library.",
 			"author": "facelessuser",
