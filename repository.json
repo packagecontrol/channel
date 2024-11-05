@@ -2119,6 +2119,19 @@
 					"tags": true
 				}
 			]
+		},
+		{
+			"name": "bashlex",
+			"description": "Python parser for bash",
+			"author": "Idan Kamara",
+			"issues": "https://github.com/idank/bashlex",
+			"releases": [
+				{
+					"base": "https://github.com/idank/bashlex/issues",
+					"python_versions": ["3.3", "3.8"],
+					"tags": true
+				}
+			]
 		}
 	]
 }
