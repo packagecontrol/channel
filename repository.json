@@ -76,7 +76,8 @@
 			"issues": "https://github.com/idank/bashlex",
 			"releases": [
 				{
-					"base": "bashlex-*-py2.py3-none-any.whl",
+					"base": "https://pypi.org/project/bashlex",
+					"asset": "bashlex-*-py2.py3-none-any.whl",
 					"python_versions": ["3.8"],
 					"tags": true
 				}
