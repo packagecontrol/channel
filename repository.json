@@ -1078,7 +1078,8 @@
 			"issues": "https://github.com/eliben/pycparser/issues",
 			"releases": [
 				{
-					"base": "pycparser-*-py3-none-any.whl",
+					"base": "https://pypi.org/project/pycparser",
+					"asset": "pycparser-*-py3-none-any.whl",
 					"python_versions": ["3.8"],
 					"tags": true
 				}
