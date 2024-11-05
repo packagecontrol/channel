@@ -1072,6 +1072,20 @@
 			]
 		},
 		{
+			"name": "pycparser",
+			"description": "Complete C99 parser in pure Python",
+			"author": "Eli Bendersky",
+			"issues": "https://github.com/eliben/pycparser/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/pycparser",
+					"asset": "pycparser-*-py3-none-any.whl",
+					"python_versions": ["3.8"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PyCrypto",
 			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
 			"author": "jlegewie",
