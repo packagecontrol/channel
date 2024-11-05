@@ -2123,7 +2123,7 @@
 		{
 			"name": "pycparser",
 			"description": "Complete C99 parser in pure Python",
-			"author": "Giampaolo Rodola",
+			"author": "Eli Bendersky",
 			"issues": "https://github.com/eliben/pycparser/issues",
 			"releases": [
 				{
