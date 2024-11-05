@@ -70,6 +70,19 @@
 			]
 		},
 		{
+			"name": "bashlex",
+			"description": "Python parser for bash",
+			"author": "Idan Kamara",
+			"issues": "https://github.com/idank/bashlex",
+			"releases": [
+				{
+					"base": "bashlex-*-py2.py3-none-any.whl",
+					"python_versions": ["3.8"],
+					"tags": true
+				}
+			]
+		}
+		{
 			"name": "beautifulsoup4",
 			"description": "Beautiful Soup is a Python library for pulling data out of HTML and XML files - https://www.crummy.com/software/BeautifulSoup/",
 			"author": "Leonard Richardson",
@@ -2115,19 +2128,6 @@
 			"releases": [
 				{
 					"base": "https://github.com/Thom1729/yaml-macros-engine",
-					"python_versions": ["3.3", "3.8"],
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "bashlex",
-			"description": "Python parser for bash",
-			"author": "Idan Kamara",
-			"issues": "https://github.com/idank/bashlex",
-			"releases": [
-				{
-					"base": "https://github.com/idank/bashlex/issues",
 					"python_versions": ["3.3", "3.8"],
 					"tags": true
 				}
