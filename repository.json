@@ -285,16 +285,50 @@
 				}
 			]
 		},
-		{"name":"ckdl","description":"KDL reading and writing using a C backend",
-		"author":"Thomas Jollans","issues":"https://github.com/tjol/ckdl/issues",
-		"releases": [
-			{"base":"https://pypi.org/project/ckdl","python_versions":["3.8"],"platforms":["windows-x64"],"asset":"ckdl-*-cp38-cp38-win_amd64.whl"              },
-			{"base":"https://pypi.org/project/ckdl","python_versions":["3.8"],"platforms":["windows-x32"],"asset":"ckdl-*-cp38-cp38-win32.whl"                  },
-			{"base":"https://pypi.org/project/ckdl","python_versions":["3.8"],"platforms":["osx-x64"    ],"asset":"ckdl-*-cp38-cp38-macosx_10_9_x86_64.whl"     },
-			{"base":"https://pypi.org/project/ckdl","python_versions":["3.8"],"platforms":["osx-arm64"  ],"asset":"ckdl-*-cp38-cp38-macosx_11_0_arm64.whl"      },
-			{"base":"https://pypi.org/project/ckdl","python_versions":["3.8"],"platforms":["linux-x64"  ],"asset":"ckdl-*-cp38-cp38-manylinux_2_17_x86_64*.whl" },
-			{"base":"https://pypi.org/project/ckdl","python_versions":["3.8"],"platforms":["linux-x32"  ],"asset":"ckdl-*-cp38-cp38-manylinux_2_5_i686*.whl"    }
-		]},
+		{
+			"name":"ckdl",
+			"description":"KDL reading and writing using a C backend",
+			"author":"Thomas Jollans",
+			"issues":"https://github.com/tjol/ckdl/issues",
+			"releases": [
+				{
+					"base":"https://pypi.org/project/ckdl",
+					"python_versions": ["3.8"],
+					"platforms": ["windows-x64"],
+					"asset": "ckdl-*-cp38-cp38-win_amd64.whl"
+				},
+				{
+					"base":"https://pypi.org/project/ckdl",
+					"python_versions": ["3.8"],
+					"platforms": ["windows-x32"],
+					"asset": "ckdl-*-cp38-cp38-win32.whl"
+				},
+				{
+					"base":"https://pypi.org/project/ckdl",
+					"python_versions": ["3.8"],
+					"platforms": ["osx-x64"    ],
+					"asset": "ckdl-*-cp38-cp38-macosx_10_9_x86_64.whl"
+				},
+				{
+					"base":"https://pypi.org/project/ckdl",
+					"python_versions": ["3.8"],
+					"platforms": ["osx-arm64"  ],
+					"asset": "ckdl-*-cp38-cp38-macosx_11_0_arm64.whl"
+				},
+				{
+					"base":"https://pypi.org/project/ckdl",
+					"python_versions": ["3.8"],
+					"platforms": ["linux-x64"  ],
+					"asset": "ckdl-*-cp38-cp38-manylinux_2_17_x86_64*.whl"
+				},
+				{
+					"base":"https://pypi.org/project/ckdl",
+					"python_versions": ["3.8"],
+					"platforms": ["linux-x32"  ],
+					"asset": "ckdl-*-cp38-cp38-manylinux_2_5_i686*.whl"
+				}
+			]
+		},
 		{
 			"name": "codemp",
 			"description": "codemp - collaborative editing library",
