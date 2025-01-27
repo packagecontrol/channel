@@ -1684,7 +1684,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/codexns/shellenv",
-					"python_versions": ["3.3"],
+					"python_versions": ["3.3","3.8"],
 					"tags": true
 				}
 			]
