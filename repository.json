@@ -682,43 +682,43 @@
 			"issues": "https://github.com/yaroslavyaroslav/llm_runner/issues",
 			"releases": [
 				{
-					"base": "https://pypi.org/project/rust-helper",
+					"base": "https://pypi.org/project/llm-runner/",
 					"asset": "llm_runner-*-cp38-cp38-macosx_*_universal2.whl",
 					"platforms": ["osx-arm64"],
 					"python_versions": ["3.8"]
 				},
 				{
-					"base": "https://pypi.org/project/rust-helper",
+					"base": "https://pypi.org/project/llm-runner/",
 					"asset": "llm_runner-*-cp38-cp38-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
 					"python_versions": ["3.8"]
 				},
 				{
-					"base": "https://pypi.org/project/rust-helper",
+					"base": "https://pypi.org/project/llm-runner/",
 					"asset": "llm_runner-*-cp38-cp38-musllinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
 					"python_versions": ["3.8"]
 				},
 				{
-					"base": "https://pypi.org/project/rust-helper",
+					"base": "https://pypi.org/project/llm-runner/",
 					"asset": "llm_runner-*-cp38-cp38-musllinux_*_i686.whl",
 					"platforms": ["linux-x32"],
 					"python_versions": ["3.8"]
 				},
 				{
-					"base": "https://pypi.org/project/rust-helper",
+					"base": "https://pypi.org/project/llm-runner/",
 					"asset": "llm_runner-*-cp38-cp38-musllinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
 					"python_versions": ["3.8"]
 				},
 				{
-					"base": "https://pypi.org/project/rust-helper",
+					"base": "https://pypi.org/project/llm-runner/",
 					"asset": "llm_runner-*-cp38-cp38-win32.whl",
 					"platforms": ["windows-x32"],
 					"python_versions": ["3.8"]
 				},
 				{
-					"base": "https://pypi.org/project/rust-helper",
+					"base": "https://pypi.org/project/llm-runner/",
 					"asset": "llm_runner-*-cp38-cp38-win_amd64.whl",
 					"platforms": ["windows-x64"],
 					"python_versions": ["3.8"]
