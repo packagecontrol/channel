@@ -683,7 +683,7 @@
 			"releases": [
 				{
 					"base": "https://pypi.org/project/llm-runner/",
-					"asset": "llm_runner-*-cp38-cp38-macosx_*_universal2.whl",
+					"asset": "llm_runner-*-cp38-cp38-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
 					"python_versions": ["3.8"]
 				},
