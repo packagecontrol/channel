@@ -48,7 +48,11 @@ class JsonDatetimeEncoder(json.JSONEncoder):
 # Generic type annotations for callable parameters are complicated,
 # so we ignore that here for now.
 def atomic_write_file(target_path: Path, opener: Callable[..., io.IOBase], content: bytes):
-    out_path = target_path.with_name(target_path.name + '-new')
+    # use temp sub-directory as filename must not be modified when writing .gz files
+    # as target_path is the name of the file in the archive with `.gz` stripped.
+    out_path = target_path.parent / ".temp"
+    out_path.mkdir(parents=True, exist_ok=True)
+    out_path /= target_path.name
     with opener(out_path, 'wb') as f:
         f.write(content)
     target_path.unlink(missing_ok=True)
@@ -79,8 +83,8 @@ def store_asset(path: Path, content: str):
         pass
 
     atomic_write_file(path, open, encoded_content)
-    atomic_write_file(path.with_suffix('.gz'), gzip.open, encoded_content)
-    atomic_write_file(path.with_suffix('.bz2'), bz2.open, encoded_content)
+    atomic_write_file(path.with_suffix(path.suffix + '.gz'), gzip.open, encoded_content)
+    atomic_write_file(path.with_suffix(path.suffix + '.bz2'), bz2.open, encoded_content)
 
     with open(filename_sha512, 'wb') as f:
         f.write(content_hash)
