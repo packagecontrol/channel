@@ -1806,6 +1806,19 @@
 			]
 		},
 		{
+			"name": "sublime_aio",
+			"description": "AsyncIO for Sublime Text",
+			"author": "DeathAxe",
+			"issues": "https://github.com/packagecontrol/sublime_aio/issues",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/sublime_aio",
+					"asset": "sublime_aio-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "sublime_lib",
 			"description": "Utility library for frequently used functionality in Sublime Text library and convenience functions or classes",
 			"author": "Thomas Smith",
