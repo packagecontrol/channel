@@ -695,19 +695,13 @@
 				},
 				{
 					"base": "https://pypi.org/project/llm-runner/",
-					"asset": "llm_runner-*-cp38-cp38-musllinux_*_aarch64.whl",
+					"asset": "llm_runner-*-cp38-cp38-manylinux*_aarch64.whl",
 					"platforms": ["linux-arm64"],
 					"python_versions": ["3.8"]
 				},
 				{
 					"base": "https://pypi.org/project/llm-runner/",
-					"asset": "llm_runner-*-cp38-cp38-musllinux_*_i686.whl",
-					"platforms": ["linux-x32"],
-					"python_versions": ["3.8"]
-				},
-				{
-					"base": "https://pypi.org/project/llm-runner/",
-					"asset": "llm_runner-*-cp38-cp38-musllinux_*_x86_64.whl",
+					"asset": "llm_runner-*-cp38-cp38-manylinux*_x86_64.whl",
 					"platforms": ["linux-x64"],
 					"python_versions": ["3.8"]
 				},
