@@ -1349,14 +1349,19 @@
 		},
 		{
 			"name": "pyte",
-			"description": "Python pyte module",
-			"author": "randy3k",
-			"issues": "https://github.com/packagecontrol/pyte/issues",
+			"description": "An in memory VTXXX-compatible terminal emulator",
+			"author": "Sergei.Lebedev",
+			"issues": "https://github.com/selectel/pyte/issues",
 			"releases": [
 				{
-					"base": "https://github.com/packagecontrol/pyte",
-					"python_versions": ["3.3", "3.8"],
-					"tags": true
+					"base": "https://pypi.org/project/pyte",
+					"asset": "pyte-*-py2.py3-none-any.whl",
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/pyte",
+					"asset": "pyte-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
