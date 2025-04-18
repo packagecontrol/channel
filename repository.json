@@ -898,6 +898,62 @@
 			]
 		},
 		{
+			"name": "numpy",
+			"description": "NumPy is the fundamental package for scientific computing with Python.",
+			"author": "Numpy",
+			"issues": "https://github.com/numpy/numpy/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/numpy",
+					"asset": "numpy-*-cp33-cp33m-manylinux*_x86_64.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/numpy",
+					"asset": "numpy-*-cp33-cp33m-macosx*_x86_64.whl",
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/numpy",
+					"asset": "numpy-*-cp33-cp33m-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/numpy",
+					"asset": "numpy-*-cp38-cp38-manylinux*_aarch64.whl",
+					"platforms": ["linux-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/numpy",
+					"asset": "numpy-*-cp38-cp38-manylinux*_x86_64.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/numpy",
+					"asset": "numpy-*-cp38-cp38-macosx*_arm64.whl",
+					"platforms": ["osx-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/numpy",
+					"asset": "numpy-*-cp38-cp38-macosx*_x86_64.whl",
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/numpy",
+					"asset": "numpy-*-cp38-cp38-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "oauthlib",
 			"description": "Python oauthlib module",
 			"author": "csch0",
