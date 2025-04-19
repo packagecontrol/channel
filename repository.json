@@ -1472,7 +1472,7 @@
 				},
 				{
 					"base": "https://pypi.org/project/pywinpty",
-					"asset": "pywinpty-*-cp38-*-win_amd64.whl",
+					"asset": "pywinpty-0.5.7-cp38-cp38-win_amd64.whl",
 					"platforms": ["windows-x64"],
 					"python_versions": ["3.8"]
 				}
