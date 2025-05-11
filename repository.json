@@ -46,10 +46,10 @@
 			"name": "backports_lzma",
 			"description": "lzma modules for sublime text 2 and 3",
 			"author": "dvhh",
-			"issues": "https://github.com/dvhh/sublime-backports.lzma/issues",
+			"issues": "https://github.com/packagecontrol/backports_lzma/issues",
 			"releases": [
 				{
-					"base": "https://github.com/dvhh/sublime-backports.lzma",
+					"base": "https://github.com/packagecontrol/backports_lzma",
 					"platforms": ["windows-x32", "windows-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
