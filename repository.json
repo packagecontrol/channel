@@ -36,14 +36,19 @@
 		},
 		{
 			"name": "arrow",
-			"description": "Python arrow module - https://github.com/crsmithdev/arrow",
-			"author": "douglas-vaz",
-			"issues": "https://github.com/douglas-vaz/arrow/issues",
+			"description": "Arrow is a Python library that offers a sensible and human-friendly approach to creating, manipulating, formatting and converting dates, times and timestamps.",
+			"author": "Chris Smith",
+			"issues": "https://github.com/arrow-py/arrow/issues",
 			"releases": [
 				{
-					"base": "https://github.com/douglas-vaz/arrow",
-					"python_versions": ["3.3", "3.8"],
-					"tags": true
+					"base": "https://pypi.org/project/arrow",
+					"asset": "arrow-*-py2.py3-none-any.whl",
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/arrow",
+					"asset": "arrow-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
