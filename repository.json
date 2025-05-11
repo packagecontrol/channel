@@ -18,14 +18,19 @@
 		},
 		{
 			"name": "anytree",
-			"description": "Python Anytree module - https://github.com/c0fec0de/anytree",
+			"description": "Python Anytree module",
 			"author": "c0fec0de",
 			"issues": "https://github.com/c0fec0de/anytree/issues",
 			"releases": [
 				{
-					"base": "https://github.com/nbeversl/anytree_sublime",
-					"python_versions": ["3.3", "3.8"],
-					"tags": true
+					"base": "https://pypi.org/project/anytree",
+					"asset": "anytree-*-py2.py3-none-any.whl",
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/anytree",
+					"asset": "anytree-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
