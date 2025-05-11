@@ -903,14 +903,19 @@
 		},
 		{
 			"name": "natsort",
-			"description": "Python natsort package",
-			"author": "alimony",
-			"issues": "https://github.com/alimony/sublime-natsort/issues",
+			"description": "Simple yet flexible natural sorting in Python.",
+			"author": "SethMMorton",
+			"issues": "https://github.com/SethMMorton/natsort/issues",
 			"releases": [
 				{
-					"base": "https://github.com/alimony/sublime-natsort",
-					"python_versions": ["3.3", "3.8"],
-					"tags": true
+					"base": "https://pypi.org/project/natsort",
+					"asset": "natsort-*-*py3-none-any.whl",
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/natsort",
+					"asset": "natsort-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
