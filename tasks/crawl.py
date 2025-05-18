@@ -207,6 +207,10 @@ def run(
     duration = time.strftime("%H:%M:%S", time.gmtime(time.time() - begin_time))
     print(f"Fetched {num_packages} packages and {num_libraries} libraries in {duration}.")
 
+    if num_packages == 0 and num_libraries == 0:
+        print("Nothing to store, aborting!")
+        return False
+
     json_content = json.dumps(
         {
             "$schema": "sublime://packagecontrol.io/schemas/channel",
