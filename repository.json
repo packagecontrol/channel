@@ -643,6 +643,19 @@
 			]
 		},
 		{
+			"name": "jieba",
+			"description": "A Chinese text segementation lib.",
+			"issues": "https://github.com/packagecontrol/jieba/issues",
+			"author": "jfcherng",
+			"releases": [
+				{
+					"base": "https://github.com/packagecontrol/jieba",
+					"python_versions": ["3.3", "3.8"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jinja2",
 			"description": "Python Jinja2 module",
 			"author": "FichteFoll",
