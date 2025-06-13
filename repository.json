@@ -486,6 +486,44 @@
 			]
 		},
 		{
+			"name": "pycryptodome",
+			"description": "PyCryptodome is a self-contained Python package of low-level cryptographic primitives.",
+			"author": "Legrandin",
+			"issues": "https://github.com/Legrandin/pycryptodome/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/pycryptodome",
+					"asset": "pycryptodome-*-cp37-abi3-manylinux_*_aarch64.whl",
+					"platforms": ["linux-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/pycryptodome",
+					"asset": "pycryptodome-*-cp37-abi3-manylinux_*_x86_64.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/pycryptodome",
+					"asset": "pycryptodome-*-cp37-abi3-macosx_*_universal2.whl",
+					"platforms": ["osx-arm64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/pycryptodome",
+					"asset": "pycryptodome-*-cp37-abi3-macosx_*_x86_64.whl",
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/pycryptodome",
+					"asset": "pycryptodome-*-cp37-abi3-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "cson",
 			"description": "A Coffescript Object Notation (CSON) parser for Python - https://github.com/avakar/pycson",
 			"author": "idleberg",
