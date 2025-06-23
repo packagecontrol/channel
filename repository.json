@@ -2061,6 +2061,19 @@
 			]
 		},
 		{
+			"name": "toolz",
+			"description": "A functional standard library for Python.",
+			"author": "Matthew Rocklin",
+			"issues": "https://github.com/pytoolz/toolz/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/toolz",
+					"asset": "toolz-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "tornado",
 			"description": "Tornado is a Python web framework and asynchronous networking library.",
 			"author": "FriendFeed",
