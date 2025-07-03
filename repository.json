@@ -681,6 +681,19 @@
 			]
 		},
 		{
+			"name": "jedi",
+			"description": "Jedi is a static analysis tool for Python that is typically used in IDEs/editors plugins",
+			"author": "David Halter",
+			"issues": "https://github.com/davidhalter/jedi/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/jedi",
+					"asset": "jedi-*-py2.py3-none-any.whl",
+					"python_versions": ["3.8"]
+				}
+			]
+		},
+		{
 			"name": "jieba",
 			"description": "A Chinese text segementation lib.",
 			"issues": "https://github.com/packagecontrol/jieba/issues",
@@ -1138,6 +1151,19 @@
 					"platforms": ["osx"],
 					"python_versions": ["3.3"],
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "parso",
+			"description": "Parso is a Python parser that supports error recovery and round-trip parsing for different Python versions (in multiple Python versions).",
+			"author": "David Halter",
+			"issues": "https://github.com/davidhalter/parso/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/parso",
+					"asset": "parso-*-py2.py3-none-any.whl",
+					"python_versions": ["3.8"]
 				}
 			]
 		},
