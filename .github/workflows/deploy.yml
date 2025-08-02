@@ -9,9 +9,10 @@ on:
       - repository.json
       - .github/workflows/deploy.yml
 
-  # Runs daily at 00:00 UTC to fetch possible library updates
+  # Runs daily at 23:30 UTC to fetch possible library updates
+  # Run half an our before packages.sublimetext.io is updated.
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "30 23 * * *"
 
   workflow_dispatch:
 
