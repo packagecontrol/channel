@@ -2264,6 +2264,19 @@
 			]
 		},
 		{
+			"name": "typing-inspection",
+			"description": "Provides tools to inspect type annotations at runtime.",
+			"author": "pydantic",
+			"issues": "https://github.com/pydantic/typing-inspection",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/typing-inspection",
+					"asset": "typing_inspection-*-py3-none-any.whl",
+					"python_versions": ["3.13"]
+				}
+			]
+		},
+		{
 			"name": "urllib3",
 			"description": "HTTP library with thread-safe connection pooling, file post, and more.",
 			"author": "Andrey Petrov",
