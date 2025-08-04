@@ -70,12 +70,17 @@
 			"name": "backrefs",
 			"description": "Backrefs regular expression wrapper.",
 			"author": "facelessuser",
-			"issues": "https://github.com/facelessuser/sublime-backrefs/issues",
+			"issues": "https://github.com/facelessuser/backrefs/issues",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-backrefs",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/backrefs",
+					"asset": "backrefs-*-py${py_version}-none-any.whl",
+					"python_versions": ["3.8", "3.13"]
 				}
 			]
 		},
