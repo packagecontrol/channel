@@ -911,8 +911,18 @@
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-markdown",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3"],
 					"tags": true
+				},
+				{
+					"base": "https://pypi.org/project/Markdown/3.2.2",
+					"asset": "markdown-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/Markdown",
+					"asset": "markdown-*-py3-none-any.whl",
+					"python_versions": ["3.13"]
 				}
 			]
 		},
