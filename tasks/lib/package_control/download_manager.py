@@ -33,7 +33,7 @@ _timer = None
 """A timer used to disconnect all managers after a period of no usage"""
 
 
-def http_get(url, settings, error_message='', prefer_cached=False):
+def http_get(url, settings, error_message=''):
     """
     Performs a HTTP GET request using best matching downloader.
 
@@ -58,9 +58,6 @@ def http_get(url, settings, error_message='', prefer_cached=False):
     :param error_message:
         The error message to include if the download fails
 
-    :param prefer_cached:
-        If cached version of the URL content is preferred over a new request
-
     :raises:
         DownloaderException: if there was an error downloading the URL
 
@@ -80,7 +77,7 @@ def http_get(url, settings, error_message='', prefer_cached=False):
 
     try:
         manager = _grab(url, settings)
-        result = manager.fetch(url, error_message, prefer_cached)
+        result = manager.fetch(url, error_message)
 
     finally:
         if manager:
@@ -277,11 +274,6 @@ def update_url(url, debug):
     url = url.replace('://nodeload.github.com/', '://codeload.github.com/')
     url = re.sub(r'^(https://codeload\.github\.com/[^/#?]+/[^/#?]+/)zipball(/.*)$', '\\1zip\\2', url)
 
-    # Fix URLs from old versions of Package Control since we are going to
-    # remove all packages but Package Control from them to force upgrades
-    if url == 'https://sublime.wbond.net/repositories.json' or url == 'https://sublime.wbond.net/channel.json':
-        url = 'https://packagecontrol.io/channel_v3.json'
-
     if debug and url != original_url:
         console_write(
             '''
@@ -324,14 +316,20 @@ class DownloadManager:
         # assign global http cache storage driver
         if http_cache:
             self.settings['cache'] = http_cache
-            self.settings['cache_length'] = http_cache.ttl
+
+            # specify maximum time a local cache is considdered fresh
+            # currently uses values from 'cache_length' setting to keep in sync
+            # with in-memory key-value cache layer.
+            max_age = settings.get('cache_length')
+            if max_age is not None and 0 <= max_age <= 24 * 60 * 60:
+                self.settings['max_age'] = max_age
 
     def close(self):
         if self.downloader:
             self.downloader.close()
             self.downloader = None
 
-    def fetch(self, url, error_message, prefer_cached=False):
+    def fetch(self, url, error_message):
         """
         Downloads a URL and returns the contents
 
@@ -340,9 +338,6 @@ class DownloadManager:
 
         :param error_message:
             The error message to include if the download fails
-
-        :param prefer_cached:
-            If cached version of the URL content is preferred over a new request
 
         :raises:
             DownloaderException: if there was an error downloading the URL
@@ -490,15 +485,13 @@ class DownloadManager:
             raise exception
 
         try:
-            return self.downloader.download(url, error_message, timeout, 3, prefer_cached)
+            return self.downloader.download(url, error_message, timeout, 3)
 
         except (RateLimitException) as e:
+            # rate limits are normally reset after an hour
+            # store rate limited domain for this time to avoid further requests
             rate_limited_domains.append(hostname)
-            set_cache(
-                'rate_limited_domains',
-                rate_limited_domains,
-                self.settings.get('cache_length', 604800)
-            )
+            set_cache('rate_limited_domains', rate_limited_domains, 3610)
 
             console_write(
                 '''
