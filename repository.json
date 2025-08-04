@@ -83,13 +83,12 @@
 			"name": "bashlex",
 			"description": "Python parser for bash",
 			"author": "Idan Kamara",
-			"issues": "https://github.com/idank/bashlex",
+			"issues": "https://github.com/idank/bashlex/issues",
 			"releases": [
 				{
 					"base": "https://pypi.org/project/bashlex",
 					"asset": "bashlex-*-py2.py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"],
-					"tags": true
+					"python_versions": ["3.8", "3.13"]
 				}
 			]
 		},
