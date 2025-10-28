@@ -1412,31 +1412,31 @@
 				{
 					"platforms": ["windows-x64"],
 					"base": "https://pypi.org/project/pydantic-core",
-					"asset": "pydantic_core-*-cp${py_version}-*-win_amd64.whl",
+					"asset": "pydantic_core-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"python_versions": ["3.8", "3.13"]
 				},
 				{
 					"platforms": ["linux-x64"],
 					"base": "https://pypi.org/project/pydantic-core",
-					"asset": "pydantic_core-*-cp${py_version}-*-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+					"asset": "pydantic_core-*-cp${py_version}-cp${py_version}-manylinux_2_17_x86_64*.whl",
 					"python_versions": ["3.8", "3.13"]
 				},
 				{
 					"platforms": ["linux-arm64"],
 					"base": "https://pypi.org/project/pydantic-core",
-					"asset": "pydantic_core-*-cp${py_version}-*-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+					"asset": "pydantic_core-*-cp${py_version}-cp${py_version}-manylinux_2_17_aarch64*.whl",
 					"python_versions": ["3.8", "3.13"]
 				},
 				{
 					"platforms": ["osx-x64"],
 					"base": "https://pypi.org/project/pydantic-core",
-					"asset": "pydantic_core-*-cp${py_version}-*-macosx_10_12_x86_64.whl",
+					"asset": "pydantic_core-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"python_versions": ["3.8", "3.13"]
 				},
 				{
 					"platforms": ["osx-arm64"],
 					"base": "https://pypi.org/project/pydantic-core",
-					"asset": "pydantic_core-*-cp${py_version}-*-macosx_11_0_arm64.whl",
+					"asset": "pydantic_core-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
 					"python_versions": ["3.8", "3.13"]
 				}
 			]
