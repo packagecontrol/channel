@@ -977,7 +977,12 @@
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-markdown-popups",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8"],
+					"tags": "st3-"
+				},
+				{
+					"base": "https://github.com/facelessuser/sublime-markdown-popups",
+					"python_versions": ["3.13"],
 					"tags": true
 				}
 			]
