@@ -78,14 +78,9 @@
 					"tags": true
 				},
 				{
-					"base": "https://pypi.org/project/backrefs/5.8",
-					"asset": "backrefs-*-py${py_version}-none-any.whl",
-					"python_versions": ["3.8"]
-				},
-				{
 					"base": "https://pypi.org/project/backrefs",
 					"asset": "backrefs-*-py${py_version}-none-any.whl",
-					"python_versions": ["3.13"]
+					"python_versions": ["3.8", "3.13"]
 				}
 			]
 		},
@@ -158,14 +153,9 @@
 					"tags": true
 				},
 				{
-					"base": "https://pypi.org/project/bracex/2.5.post1",
-					"asset": "bracex-*-py3-none-any.whl",
-					"python_versions": ["3.8"]
-				},
-				{
 					"base": "https://pypi.org/project/bracex",
 					"asset": "bracex-*-py3-none-any.whl",
-					"python_versions": ["3.13"]
+					"python_versions": ["3.8", "3.13"]
 				}
 			]
 		},
@@ -391,14 +381,9 @@
 					"tags": true
 				},
 				{
-					"base": "https://pypi.org/project/coloraide/4.3",
-					"asset": "coloraide-*-py3-none-any.whl",
-					"python_versions": ["3.8"]
-				},
-				{
 					"base": "https://pypi.org/project/coloraide",
 					"asset": "coloraide-*-py3-none-any.whl",
-					"python_versions": ["3.13"]
+					"python_versions": ["3.8", "3.13"]
 				}
 			]
 		},
@@ -1973,14 +1958,8 @@
 			"issues": "https://github.com/facelessuser/soupsieve/issues",
 			"releases": [
 				{
-					"base": "https://pypi.org/project/soupsieve/2.7",
-					"python_versions": ["3.8"],
-					"asset": "soupsieve-*-py3-none-any.whl"
-				},
-				{
-
 					"base": "https://pypi.org/project/soupsieve",
-					"python_versions": ["3.13"],
+					"python_versions": ["3.8", "3.13"],
 					"asset": "soupsieve-*-py3-none-any.whl"
 				}
 			]
@@ -2419,15 +2398,9 @@
 					"tags": true
 				},
 				{
-
-					"base": "https://pypi.org/project/wcmatch/10.0",
-					"asset": "wcmatch-*-py3-none-any.whl",
-					"python_versions": ["3.8"]
-				},
-				{
 					"base": "https://pypi.org/project/wcmatch",
 					"asset": "wcmatch-*-py3-none-any",
-					"python_versions": ["3.13"]
+					"python_versions": ["3.8", "3.13"]
 				}
 			]
 		},
