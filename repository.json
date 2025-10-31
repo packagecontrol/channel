@@ -78,9 +78,14 @@
 					"tags": true
 				},
 				{
+					"base": "https://pypi.org/project/backrefs/5.8",
+					"asset": "backrefs-*-py${py_version}-none-any.whl",
+					"python_versions": ["3.8"]
+				},
+				{
 					"base": "https://pypi.org/project/backrefs",
 					"asset": "backrefs-*-py${py_version}-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.13"]
 				}
 			]
 		},
@@ -145,7 +150,7 @@
 			"name": "bracex",
 			"description": "Bracex creates arbitrary strings via brace expansion much like Bash's.",
 			"author": "facelessuser",
-			"issues": "https://github.com/facelessuser/sublime-bracex/issues",
+			"issues": "https://github.com/facelessuser/bracex/issues",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-bracex",
@@ -153,9 +158,14 @@
 					"tags": true
 				},
 				{
+					"base": "https://pypi.org/project/bracex/2.5.post1",
+					"asset": "bracex-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				},
+				{
 					"base": "https://pypi.org/project/bracex",
 					"asset": "bracex-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.13"]
 				}
 			]
 		},
@@ -373,7 +383,7 @@
 			"name": "coloraide",
 			"description": "A color library.",
 			"author": "facelessuser",
-			"issues": "https://github.com/facelessuser/sublime-coloraide/issues",
+			"issues": "https://github.com/facelessuser/coloraide/issues",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-coloraide",
@@ -381,9 +391,14 @@
 					"tags": true
 				},
 				{
+					"base": "https://pypi.org/project/coloraide/4.3",
+					"asset": "coloraide-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				},
+				{
 					"base": "https://pypi.org/project/coloraide",
 					"asset": "coloraide-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.13"]
 				}
 			]
 		},
@@ -906,8 +921,8 @@
 		{
 			"name": "Markdown",
 			"description": "Python Markdown module",
-			"author": "facelessuser",
-			"issues": "https://github.com/facelessuser/sublime-markdown/issues",
+			"author": "waylan",
+			"issues": "https://github.com/Python-Markdown/markdown/issues",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-markdown",
@@ -1482,12 +1497,17 @@
 			"name": "pymdownx",
 			"description": "PyMdown Extensions for Python Markdown",
 			"author": "facelessuser",
-			"issues": "https://github.com/facelessuser/sublime-pymdownx/issues",
+			"issues": "https://github.com/facelessuser/pymdown-extensions/issues",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-pymdownx",
-					"python_versions": ["3.3", "3.8", "3.13"],
-					"tags": true
+					"python_versions": ["3.3", "3.8"],
+					"tags": "st3-"
+				},
+				{
+					"base": "https://pypi.org/project/pymdown-extensions",
+					"asset": "pymdown_extensions-*-py3-none-any.whl",
+					"python_versions": ["3.13"]
 				}
 			]
 		},
@@ -1953,8 +1973,14 @@
 			"issues": "https://github.com/facelessuser/soupsieve/issues",
 			"releases": [
 				{
+					"base": "https://pypi.org/project/soupsieve/2.7",
+					"python_versions": ["3.8"],
+					"asset": "soupsieve-*-py3-none-any.whl"
+				},
+				{
+
 					"base": "https://pypi.org/project/soupsieve",
-					"python_versions": ["3.8", "3.13"],
+					"python_versions": ["3.13"],
 					"asset": "soupsieve-*-py3-none-any.whl"
 				}
 			]
@@ -2385,7 +2411,7 @@
 			"name": "wcmatch",
 			"description": "Python wcmatch module which provides enhanced file globbing and matching",
 			"author": "facelessuser",
-			"issues": "https://github.com/facelessuser/sublime-wcmatch/issues",
+			"issues": "https://github.com/facelessuser/wcmatch/issues",
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-wcmatch",
@@ -2393,9 +2419,15 @@
 					"tags": true
 				},
 				{
+
+					"base": "https://pypi.org/project/wcmatch/10.0",
+					"asset": "wcmatch-*-py3-none-any.whl",
+					"python_versions": ["3.8"]
+				},
+				{
 					"base": "https://pypi.org/project/wcmatch",
 					"asset": "wcmatch-*-py3-none-any",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.13"]
 				}
 			]
 		},
