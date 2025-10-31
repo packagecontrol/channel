@@ -78,7 +78,7 @@
 					"tags": true
 				},
 				{
-					"base": "https://pypi.org/project/backrefs/5.7",
+					"base": "https://pypi.org/project/backrefs/5.7.post1",
 					"asset": "backrefs-*-py${py_version}-none-any.whl",
 					"python_versions": ["3.8"]
 				},
