@@ -1479,7 +1479,7 @@
 			]
 		},
 		{
-			"name": "pymdownx",
+			"name": "pymdown_extensions",
 			"description": "PyMdown Extensions for Python Markdown",
 			"author": "facelessuser",
 			"issues": "https://github.com/facelessuser/pymdown-extensions/issues",
@@ -1493,6 +1493,19 @@
 					"base": "https://pypi.org/project/pymdown-extensions",
 					"asset": "pymdown_extensions-*-py3-none-any.whl",
 					"python_versions": ["3.13"]
+				}
+			]
+		},
+		{
+			"name": "pymdownx",
+			"description": "PyMdown Extensions for Python Markdown",
+			"author": "facelessuser",
+			"issues": "https://github.com/facelessuser/pymdown-extensions/issues",
+			"releases": [
+				{
+					"base": "https://github.com/facelessuser/sublime-pymdownx",
+					"python_versions": ["3.3", "3.8"],
+					"tags": "st3-"
 				}
 			]
 		},
