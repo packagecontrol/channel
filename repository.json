@@ -1645,7 +1645,13 @@
 					"base": "https://pypi.org/project/pywinpty",
 					"asset": "pywinpty-0.5.7-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8"]
+				},
+				{
+					"base": "https://pypi.org/project/pywinpty",
+					"asset": "pywinpty-*-cp${py_version}-cp${py_version}-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.13"]
 				}
 			]
 		},
