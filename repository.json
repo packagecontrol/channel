@@ -982,8 +982,8 @@
 				},
 				{
 					"base": "https://github.com/facelessuser/sublime-markdown-popups",
-					"python_versions": ["3.13"],
-					"tags": true
+					"asset": "mdpopups-*-py3-none-any.whl",
+					"python_versions": ["3.13"]
 				}
 			]
 		},
