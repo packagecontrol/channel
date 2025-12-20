@@ -1462,15 +1462,14 @@
 			"issues": "https://github.com/packagecontrol/pygments/issues",
 			"releases": [
 				{
-					"base": "https://github.com/packagecontrol/pygments",
-					"python_versions": ["3.3"],
-					"tags": true
+					"base": "https://pypi.org/project/pygments",
+					"asset": "Pygments-*-py3-none-any.whl",
+					"python_versions": ["3.3"]
 				},
 				{
 					"base": "https://pypi.org/project/pygments",
 					"asset": "pygments-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"],
-					"tags": true
+					"python_versions": ["3.8", "3.13"]
 				}
 			]
 		},
