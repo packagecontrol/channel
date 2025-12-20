@@ -2067,13 +2067,13 @@
 		{
 			"name": "tabulate",
 			"description": "Python tabulate module",
-			"author": "csch0",
-			"issues": "https://github.com/packagecontrol/tabulate/issues",
+			"author": "Sergey",
+			"issues": "https://github.com/astanin/python-tabulate/issues",
 			"releases": [
 				{
-					"base": "https://github.com/packagecontrol/tabulate",
-					"python_versions": ["3.3", "3.8", "3.13"],
-					"tags": true
+					"base": "https://pypi.org/project/tabulate",
+					"asset": "tabulate-*-py3-none-any.whl",
+					"python_versions": ["3.3", "3.8", "3.13"]
 				}
 			]
 		},
