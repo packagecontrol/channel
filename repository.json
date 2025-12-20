@@ -1309,19 +1309,14 @@
 		},
 		{
 			"name": "ptyprocess",
-			"description": "Python ptyprocess module",
-			"author": "randy3k",
-			"issues": "https://github.com/packagecontrol/ptyprocess/issues",
+			"description": "Launch a subprocess in a pseudo terminal (pty), and interact with both the process and its pty.",
+			"author": ["luyer", "Red_M", "takowl"],
+			"issues": "https://github.com/pexpect/ptyprocess/issues",
 			"releases": [
-				{
-					"base": "https://github.com/packagecontrol/ptyprocess",
-					"python_versions": ["3.3"],
-					"tags": true
-				},
 				{
 					"base": "https://pypi.org/project/ptyprocess",
 					"asset": "ptyprocess-*-py2.py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.3", "3.8", "3.13"]
 				}
 			]
 		},
