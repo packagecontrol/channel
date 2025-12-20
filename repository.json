@@ -1965,14 +1965,14 @@
 		},
 		{
 			"name": "six",
-			"description": "Python six library https://github.com/benjaminp/six",
-			"author": "jcoc611",
-			"issues": "https://github.com/packagecontrol/sublime-six/issues",
+			"description": "Six is a Python 2 and 3 compatibility library.",
+			"author": "Benjamin Peterson",
+			"issues": "https://github.com/benjaminp/six/issues",
 			"releases": [
 				{
-					"base": "https://github.com/packagecontrol/sublime-six",
-					"python_versions": ["3.3", "3.8", "3.13"],
-					"tags": true
+					"base": "https://pypi.org/project/six",
+					"asset": "six-*-py2.py3-none-any.whl",
+					"python_versions": ["3.3", "3.8", "3.13"]
 				}
 			]
 		},
