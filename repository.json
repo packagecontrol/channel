@@ -99,9 +99,9 @@
 		},
 		{
 			"name": "beautifulsoup4",
-			"description": "Beautiful Soup is a Python library for pulling data out of HTML and XML files - https://www.crummy.com/software/BeautifulSoup/",
+			"description": "Beautiful Soup is a Python library for pulling data out of HTML and XML files - https://www.crummy.com/software/BeautifulSoup",
 			"author": "Leonard Richardson",
-			"issues": "https://bugs.launchpad.net/beautifulsoup/",
+			"issues": "https://bugs.launchpad.net/beautifulsoup",
 			"releases": [
 				{
 					"base": "https://pypi.org/project/beautifulsoup4",
@@ -350,19 +350,19 @@
 			"issues": "https://github.com/hexedtech/codemp/issues",
 			"releases": [
 				{
-					"base": "https://pypi.org/project/codemp/",
+					"base": "https://pypi.org/project/codemp",
 					"asset": "codemp-*-cp${py_version}-none-win_amd64.whl",
 					"platforms": ["windows-x64"],
 					"python_versions": ["3.8", "3.13"]
 				},
 				{
-					"base": "https://pypi.org/project/codemp/",
+					"base": "https://pypi.org/project/codemp",
 					"asset": "codemp-*-cp${py_version}-abi3-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
 					"python_versions": ["3.8", "3.13"]
 				},
 				{
-					"base": "https://pypi.org/project/codemp/",
+					"base": "https://pypi.org/project/codemp",
 					"asset": "codemp-*-cp${py_version}-abi3-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
 					"python_versions": ["3.8", "3.13"]
@@ -728,37 +728,37 @@
 			"issues": "https://github.com/yaroslavyaroslav/llm_runner/issues",
 			"releases": [
 				{
-					"base": "https://pypi.org/project/llm-runner/",
+					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
 					"python_versions": ["3.8", "3.13"]
 				},
 				{
-					"base": "https://pypi.org/project/llm-runner/",
+					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
 					"python_versions": ["3.8", "3.13"]
 				},
 				{
-					"base": "https://pypi.org/project/llm-runner/",
+					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-manylinux*_aarch64.whl",
 					"platforms": ["linux-arm64"],
 					"python_versions": ["3.8", "3.13"]
 				},
 				{
-					"base": "https://pypi.org/project/llm-runner/",
+					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-manylinux*_x86_64.whl",
 					"platforms": ["linux-x64"],
 					"python_versions": ["3.8", "3.13"]
 				},
 				{
-					"base": "https://pypi.org/project/llm-runner/",
+					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-win32.whl",
 					"platforms": ["windows-x32"],
 					"python_versions": ["3.8", "3.13"]
 				},
 				{
-					"base": "https://pypi.org/project/llm-runner/",
+					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
 					"python_versions": ["3.8", "3.13"]
@@ -1341,7 +1341,7 @@
 		},
 		{
 			"name": "PyCrypto",
-			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto/",
+			"description": "Python Cryptography Toolkit - https://www.dlitz.net/software/pycrypto",
 			"author": "jlegewie",
 			"issues": "https://github.com/jlegewie/sublime-PyCrypto/issues",
 			"releases": [
@@ -1856,7 +1856,7 @@
 			"name": "ruamel.yaml.clib",
 			"description": "C version of reader, parser and emitter for ruamel.yaml derived from libyaml",
 			"author": "Anthon van der Neut",
-			"issues": "https://sourceforge.net/p/ruamel-yaml-clib/tickets/",
+			"issues": "https://sourceforge.net/p/ruamel-yaml-clib/tickets",
 			"releases": [
 				{
 					"platforms": ["windows-x32"],
