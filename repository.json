@@ -2431,14 +2431,9 @@
 			"issues": "https://github.com/packagecontrol/wcwidth/issues",
 			"releases": [
 				{
-					"base": "https://github.com/packagecontrol/wcwidth",
-					"python_versions": ["3.3"],
-					"tags": true
-				},
-				{
 					"base": "https://pypi.org/project/wcwidth",
 					"asset": "wcwidth-*-py2.py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.3", "3.8", "3.13"]
 				}
 			]
 		},
