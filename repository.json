@@ -187,19 +187,6 @@
 			]
 		},
 		{
-			"name": "channelmanager",
-			"description": "Manages packages installed as git submodules",
-			"author": "evandrocoan",
-			"issues": "https://github.com/evandrocoan/channelmanager/issues",
-			"releases": [
-				{
-					"base": "https://github.com/evandrocoan/channelmanager",
-					"python_versions": ["3.3", "3.8", "3.13"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "cffi",
 			"description": "Foreign Function Interface for Python calling C code.",
 			"author": "python-cffi",
@@ -234,6 +221,19 @@
 					"asset": "cffi-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
 					"python_versions": ["3.8", "3.13"]
+				}
+			]
+		},
+		{
+			"name": "channelmanager",
+			"description": "Manages packages installed as git submodules",
+			"author": "evandrocoan",
+			"issues": "https://github.com/evandrocoan/channelmanager/issues",
+			"releases": [
+				{
+					"base": "https://github.com/evandrocoan/channelmanager",
+					"python_versions": ["3.3", "3.8", "3.13"],
+					"tags": true
 				}
 			]
 		},
@@ -491,74 +491,6 @@
 					"platforms": ["linux-x32", "linux-x64"],
 					"python_versions": ["3.3"],
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "pycryptodome",
-			"description": "PyCryptodome is a self-contained Python package of low-level cryptographic primitives.",
-			"author": "Legrandin",
-			"issues": "https://github.com/Legrandin/pycryptodome/issues",
-			"releases": [
-				{
-					"base": "https://pypi.org/project/pycryptodome",
-					"asset": "pycryptodome-*-cp37-abi3-manylinux_*_aarch64.whl",
-					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8"]
-				},
-				{
-					"base": "https://pypi.org/project/pycryptodome",
-					"asset": "pycryptodome-*-cp37-abi3-manylinux_*_x86_64.whl",
-					"platforms": ["linux-x64"],
-					"python_versions": ["3.8"]
-				},
-				{
-					"base": "https://pypi.org/project/pycryptodome",
-					"asset": "pycryptodome-*-cp37-abi3-macosx_*_universal2.whl",
-					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8"]
-				},
-				{
-					"base": "https://pypi.org/project/pycryptodome",
-					"asset": "pycryptodome-*-cp37-abi3-macosx_*_x86_64.whl",
-					"platforms": ["osx-x64"],
-					"python_versions": ["3.8"]
-				},
-				{
-					"base": "https://pypi.org/project/pycryptodome",
-					"asset": "pycryptodome-*-cp37-abi3-win_amd64.whl",
-					"platforms": ["windows-x64"],
-					"python_versions": ["3.8"]
-				},
-				{
-					"base": "https://pypi.org/project/pycryptodome",
-					"asset": "pycryptodome-*-cp313-cp313t-manylinux_*_aarch64.whl",
-					"platforms": ["linux-arm64"],
-					"python_versions": ["3.13"]
-				},
-				{
-					"base": "https://pypi.org/project/pycryptodome",
-					"asset": "pycryptodome-*-cp313-cp313t-manylinux_*_x86_64.whl",
-					"platforms": ["linux-x64"],
-					"python_versions": ["3.13"]
-				},
-				{
-					"base": "https://pypi.org/project/pycryptodome",
-					"asset": "pycryptodome-*-cp313-cp313t-macosx_*_universal2.whl",
-					"platforms": ["osx-arm64"],
-					"python_versions": ["3.13"]
-				},
-				{
-					"base": "https://pypi.org/project/pycryptodome",
-					"asset": "pycryptodome-*-cp313-cp313t-macosx_*_x86_64.whl",
-					"platforms": ["osx-x64"],
-					"python_versions": ["3.13"]
-				},
-				{
-					"base": "https://pypi.org/project/pycryptodome",
-					"asset": "pycryptodome-*-cp313-cp313t-win_amd64.whl",
-					"platforms": ["windows-x64"],
-					"python_versions": ["3.13"]
 				}
 			]
 		},
@@ -1421,6 +1353,44 @@
 			]
 		},
 		{
+			"name": "pycryptodome",
+			"description": "PyCryptodome is a self-contained Python package of low-level cryptographic primitives.",
+			"author": "Legrandin",
+			"issues": "https://github.com/Legrandin/pycryptodome/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/pycryptodome",
+					"asset": "pycryptodome-*-cp37-abi3-manylinux_*_aarch64.whl",
+					"platforms": ["linux-arm64"],
+					"python_versions": ["3.8", "3.13"]
+				},
+				{
+					"base": "https://pypi.org/project/pycryptodome",
+					"asset": "pycryptodome-*-cp37-abi3-manylinux_*_x86_64.whl",
+					"platforms": ["linux-x64"],
+					"python_versions": ["3.8", "3.13"]
+				},
+				{
+					"base": "https://pypi.org/project/pycryptodome",
+					"asset": "pycryptodome-*-cp37-abi3-macosx_*_universal2.whl",
+					"platforms": ["osx-arm64"],
+					"python_versions": ["3.8", "3.13"]
+				},
+				{
+					"base": "https://pypi.org/project/pycryptodome",
+					"asset": "pycryptodome-*-cp37-abi3-macosx_*_x86_64.whl",
+					"platforms": ["osx-x64"],
+					"python_versions": ["3.8", "3.13"]
+				},
+				{
+					"base": "https://pypi.org/project/pycryptodome",
+					"asset": "pycryptodome-*-cp37-abi3-win_amd64.whl",
+					"platforms": ["windows-x64"],
+					"python_versions": ["3.8", "3.13"]
+				}
+			]
+		},
+		{
 			"name": "pydantic",
 			"description": "Data validation using Python type hints.",
 			"author": "samuelcolvin",
@@ -2113,19 +2083,6 @@
 			]
 		},
 		{
-			"name": "TM1py",
-			"description": "Python module for interfacing with IBM TM1 Planning Analytics",
-			"author": "MariusWirtz",
-			"issues": "https://github.com/ajmyers/TM1py/issues",
-			"releases": [
-				{
-					"base": "https://github.com/ajmyers/TM1py",
-					"python_versions": ["3.3"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "tiktoken",
 			"description": "tiktoken is a fast BPE tokeniser for use with OpenAI's models.",
 			"author": "OpenAI",
@@ -2160,6 +2117,19 @@
 					"asset": "tiktoken-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
 					"python_versions": ["3.8", "3.13"]
+				}
+			]
+		},
+		{
+			"name": "TM1py",
+			"description": "Python module for interfacing with IBM TM1 Planning Analytics",
+			"author": "MariusWirtz",
+			"issues": "https://github.com/ajmyers/TM1py/issues",
+			"releases": [
+				{
+					"base": "https://github.com/ajmyers/TM1py",
+					"python_versions": ["3.3"],
+					"tags": true
 				}
 			]
 		},
@@ -2478,6 +2448,24 @@
 			]
 		},
 		{
+			"name": "websocket-client",
+			"description": "WebSocket client for Python with low level API options",
+			"author": "liris",
+			"issues": "https://github.com/websocket-client/websocket-client/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/websocket-client",
+					"asset": "websocket_client-*-py2.py3-none-any.whl",
+					"python_versions": ["3.3"]
+				},
+				{
+					"base": "https://pypi.org/project/websocket-client",
+					"asset": "websocket_client-*-py3-none-any.whl",
+					"python_versions": ["3.8", "3.13"]
+				}
+			]
+		},
+		{
 			"name": "websockets",
 			"description": "websockets is a library for building WebSocket servers and clients in Python with a focus on correctness, simplicity, robustness, and performance.",
 			"author": "aaugustin",
@@ -2511,24 +2499,6 @@
 					"platforms": ["osx-arm64"],
 					"base": "https://pypi.org/project/websockets",
 					"asset": "websockets-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
-					"python_versions": ["3.8", "3.13"]
-				}
-			]
-		},
-		{
-			"name": "websocket-client",
-			"description": "WebSocket client for Python with low level API options",
-			"author": "liris",
-			"issues": "https://github.com/websocket-client/websocket-client/issues",
-			"releases": [
-				{
-					"base": "https://pypi.org/project/websocket-client",
-					"asset": "websocket_client-*-py2.py3-none-any.whl",
-					"python_versions": ["3.3"]
-				},
-				{
-					"base": "https://pypi.org/project/websocket-client",
-					"asset": "websocket_client-*-py3-none-any.whl",
 					"python_versions": ["3.8", "3.13"]
 				}
 			]
