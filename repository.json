@@ -1157,13 +1157,13 @@
 		{
 			"name": "pathlib",
 			"description": "Python pathlib module",
-			"author": "FichteFoll",
-			"issues": "https://github.com/packagecontrol/pathlib/issues",
+			"author": "antoine",
+			"issues": "https://github.com/jazzband/pathlib2",
 			"releases": [
 				{
-					"base": "https://github.com/packagecontrol/pathlib",
-					"python_versions": ["3.3"],
-					"tags": true
+					"base": "https://pypi.org/project/pathlib",
+					"asset": "pathlib-*-py3-none-any.whl",
+					"python_versions": ["3.3"]
 				}
 			]
 		},
