@@ -1787,7 +1787,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/requests",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3"],
 					"tags": true
 				},
 				{
