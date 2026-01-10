@@ -773,7 +773,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/sublimelsp/lsp_utils",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8"],
 					"sublime_text": "3154 - 4069",
 					"tags": "st3-v"
 				},
