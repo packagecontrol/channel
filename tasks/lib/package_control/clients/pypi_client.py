@@ -259,7 +259,7 @@ class PyPiClient(JSONApiClient):
         pattern = pattern.replace("*", r".*?")
         regex = re.compile(pattern)
 
-        python_versions = (PEP440Version(ver) for ver in selectors["python_versions"])
+        python_versions = [PEP440Version(ver) for ver in selectors["python_versions"]]
 
         for asset in assets:
             if asset["packagetype"] != "bdist_wheel":
@@ -270,13 +270,12 @@ class PyPiClient(JSONApiClient):
                 continue
 
             specs = asset["requires_python"]
-            if specs:
-                specs = (
-                    PEP440VersionSpecifier(spec)
-                    for spec in asset["requires_python"].split(",")
-                )
-                if not all(ver in spec for spec in specs for ver in python_versions):
-                    continue
+            if specs and not all(
+                ver in PEP440VersionSpecifier(spec)
+                for spec in specs.split(",")
+                for ver in python_versions
+            ):
+                continue
 
             info = {
                 "url": asset["url"],
