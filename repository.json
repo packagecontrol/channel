@@ -12,7 +12,7 @@
 				{
 					"base": "https://pypi.org/project/annotated-types",
 					"asset": "annotated_types-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -30,7 +30,7 @@
 				{
 					"base": "https://pypi.org/project/anytree",
 					"asset": "anytree-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -48,7 +48,7 @@
 				{
 					"base": "https://pypi.org/project/arrow",
 					"asset": "arrow-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -80,7 +80,7 @@
 				{
 					"base": "https://pypi.org/project/backrefs",
 					"asset": "backrefs-*-py${py_version}-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -93,7 +93,7 @@
 				{
 					"base": "https://pypi.org/project/bashlex",
 					"asset": "bashlex-*-py2.py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -111,7 +111,7 @@
 				{
 					"base": "https://pypi.org/project/beautifulsoup4",
 					"asset": "beautifulsoup4-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -123,7 +123,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/KuttKatrea/sublime-better-settings",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -155,7 +155,7 @@
 				{
 					"base": "https://pypi.org/project/bracex",
 					"asset": "bracex-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -167,7 +167,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/idleberg/sublime-bson",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -196,31 +196,31 @@
 					"base": "https://pypi.org/project/cffi",
 					"asset": "cffi-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/cffi",
 					"asset": "cffi-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/cffi",
 					"asset": "cffi-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/cffi",
 					"asset": "cffi-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/cffi",
 					"asset": "cffi-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -232,7 +232,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandrocoan/channelmanager",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -251,7 +251,7 @@
 				{
 					"base": "https://pypi.org/project/chardet",
 					"asset": "chardet-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -265,37 +265,37 @@
 					"base": "https://pypi.org/project/charset-normalizer",
 					"asset": "charset_normalizer-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/charset-normalizer",
 					"asset": "charset_normalizer-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/charset-normalizer",
 					"asset": "charset_normalizer-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/charset-normalizer",
 					"asset": "charset_normalizer-*-cp${py_version}-cp${py_version}-macosx_*_universal2.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/charset-normalizer",
 					"asset": "charset_normalizer-*-cp${py_version}-cp${py_version}-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/charset-normalizer",
 					"asset": "charset_normalizer-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -307,37 +307,37 @@
 			"releases": [
 				{
 					"base": "https://pypi.org/project/ckdl",
-					"python_versions": ["3.8", "3.13"],
+					"python_versions": ["3.8", "3.13", "3.14"],
 					"platforms": ["windows-x64"],
 					"asset": "ckdl-*-cp${py_version}-cp${py_version}-win_amd64.whl"
 				},
 				{
 					"base": "https://pypi.org/project/ckdl",
-					"python_versions": ["3.8", "3.13"],
+					"python_versions": ["3.8", "3.13", "3.14"],
 					"platforms": ["windows-x32"],
 					"asset": "ckdl-*-cp${py_version}-cp${py_version}-win32.whl"
 				},
 				{
 					"base": "https://pypi.org/project/ckdl",
-					"python_versions": ["3.8", "3.13"],
+					"python_versions": ["3.8", "3.13", "3.14"],
 					"platforms": ["osx-x64"],
 					"asset": "ckdl-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl"
 				},
 				{
 					"base": "https://pypi.org/project/ckdl",
-					"python_versions": ["3.8", "3.13"],
+					"python_versions": ["3.8", "3.13", "3.14"],
 					"platforms": ["osx-arm64"],
 					"asset": "ckdl-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl"
 				},
 				{
 					"base": "https://pypi.org/project/ckdl",
-					"python_versions": ["3.8", "3.13"],
+					"python_versions": ["3.8", "3.13", "3.14"],
 					"platforms": ["linux-x64"],
 					"asset": "ckdl-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl"
 				},
 				{
 					"base": "https://pypi.org/project/ckdl",
-					"python_versions": ["3.8", "3.13"],
+					"python_versions": ["3.8", "3.13", "3.14"],
 					"platforms": ["linux-x32"],
 					"asset": "ckdl-*-cp${py_version}-cp${py_version}-manylinux_*_i686.whl"
 				}
@@ -353,19 +353,19 @@
 					"base": "https://pypi.org/project/codemp",
 					"asset": "codemp-*-cp${py_version}-none-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/codemp",
 					"asset": "codemp-*-cp${py_version}-abi3-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/codemp",
 					"asset": "codemp-*-cp${py_version}-abi3-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -383,7 +383,7 @@
 				{
 					"base": "https://pypi.org/project/coloraide",
 					"asset": "coloraide-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -395,7 +395,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandroforks/concurrentloghandler",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -410,43 +410,43 @@
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp${py_version}-cp${py_version}-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp${py_version}-cp${py_version}-manylinux_*_i686.whl",
 					"platforms": ["linux-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
 					"asset": "coverage-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/coverage",
@@ -502,7 +502,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/idleberg/sublime-cson",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -516,7 +516,7 @@
 				{
 					"base": "https://pypi.org/project/python-dateutil",
 					"asset": "python_dateutil-*-py2.py3-none-any.whl",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -529,7 +529,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandrocoan/debugtools",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -542,7 +542,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/idleberg/sublime-dicttoxml",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -555,7 +555,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandroforks/diffmatchpatch",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -582,7 +582,7 @@
 				{
 					"base": "https://pypi.org/project/eval-type-backport",
 					"asset": "eval_type_backport-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -594,7 +594,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/gateone-terminal",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -607,7 +607,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/facelessuser/sublime-gntp",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -634,7 +634,7 @@
 				{
 					"base": "https://pypi.org/project/idna",
 					"asset": "idna-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -647,7 +647,7 @@
 				{
 					"base": "https://pypi.org/project/jedi",
 					"asset": "jedi-*-py2.py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -659,7 +659,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/jieba",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -678,7 +678,7 @@
 				{
 					"base": "https://pypi.org/project/Jinja2",
 					"asset": "Jinja2-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -691,7 +691,7 @@
 				{
 					"base": "https://pypi.org/project/jmespath",
 					"asset": "jmespath-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -703,7 +703,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/kylebebak/sublime-jsonschema",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -718,37 +718,37 @@
 					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-manylinux*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-manylinux*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/llm-runner",
 					"asset": "llm_runner-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -766,7 +766,7 @@
 				},
 				{
 					"base": "https://github.com/sublimelsp/lsp_utils",
-					"python_versions": ["3.8", "3.13"],
+					"python_versions": ["3.8", "3.13", "3.14"],
 					"sublime_text": ">=4070",
 					"tags": true
 				}
@@ -812,43 +812,43 @@
 					"base": "https://pypi.org/project/lxml",
 					"asset": "lxml-*-cp${py_version}-cp${py_version}-macosx_*_universal2.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/lxml",
 					"asset": "lxml-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/lxml",
 					"asset": "lxml-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/lxml",
 					"asset": "lxml-*-cp${py_version}-cp${py_version}-manylinux_*_i686.whl",
 					"platforms": ["linux-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/lxml",
 					"asset": "lxml-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/lxml",
 					"asset": "lxml-*-cp${py_version}-cp${py_version}-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/lxml",
 					"asset": "lxml-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -871,7 +871,7 @@
 				{
 					"base": "https://pypi.org/project/Markdown",
 					"asset": "markdown-*-py3-none-any.whl",
-					"python_versions": ["3.13"]
+					"python_versions": ["3.13", "3.14"]
 				}
 			]
 		},
@@ -890,31 +890,31 @@
 					"base": "https://pypi.org/project/MarkupSafe",
 					"asset": "MarkupSafe-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/MarkupSafe",
 					"asset": "MarkupSafe-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/MarkupSafe",
 					"asset": "MarkupSafe-*-cp${py_version}-cp${py_version}-macosx_*_universal2.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/MarkupSafe",
 					"asset": "MarkupSafe-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/MarkupSafe",
 					"asset": "MarkupSafe-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -933,7 +933,7 @@
 				{
 					"base": "https://github.com/facelessuser/sublime-markdown-popups",
 					"asset": "mdpopups-*-py3-none-any.whl",
-					"python_versions": ["3.13"]
+					"python_versions": ["3.13", "3.14"]
 				}
 			]
 		},
@@ -946,7 +946,7 @@
 				{
 					"base": "https://pypi.org/project/more-itertools",
 					"asset": "more_itertools-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -964,7 +964,7 @@
 				{
 					"base": "https://pypi.org/project/natsort",
 					"asset": "natsort-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -976,7 +976,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/codexns/newterm",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -1009,31 +1009,31 @@
 					"base": "https://pypi.org/project/numpy",
 					"asset": "numpy-*-cp${py_version}-cp${py_version}-manylinux*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/numpy",
 					"asset": "numpy-*-cp${py_version}-cp${py_version}-manylinux*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/numpy",
 					"asset": "numpy-*-cp${py_version}-cp${py_version}-macosx*_arm64.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/numpy",
 					"asset": "numpy-*-cp${py_version}-cp${py_version}-macosx*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/numpy",
 					"asset": "numpy-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1060,31 +1060,31 @@
 					"base": "https://pypi.org/project/orjson",
 					"asset": "orjson-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/orjson",
 					"asset": "orjson-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/orjson",
 					"asset": "orjson-*-cp${py_version}-cp${py_version}-macosx_*_universal2.whl",
 					"platforms": ["osx-arm64", "osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/orjson",
 					"asset": "orjson-*-cp${py_version}-*-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/orjson",
 					"asset": "orjson-*-cp${py_version}-*-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1096,7 +1096,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/codexns/package_events",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -1109,7 +1109,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/math2001/package_setting_context",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -1137,7 +1137,7 @@
 				{
 					"base": "https://pypi.org/project/parso",
 					"asset": "parso-*-py2.py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1162,7 +1162,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/vovkkk/sublime-pathtools",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -1175,7 +1175,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/varp/sublime-pexpect",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -1190,37 +1190,37 @@
 					"base": "https://pypi.org/project/pillow",
 					"asset": "pillow-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pillow",
 					"asset": "pillow-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pillow",
 					"asset": "pillow-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pillow",
 					"asset": "pillow-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pillow",
 					"asset": "pillow-*-cp${py_version}-cp${py_version}-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pillow",
 					"asset": "pillow-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1232,7 +1232,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandrocoan/plantumlconnection",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -1245,7 +1245,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandroforks/portalockerfile",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -1266,31 +1266,31 @@
 					"base": "https://pypi.org/project/psutil",
 					"asset": "psutil-*-cp${py_version}-*-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/psutil",
 					"asset": "psutil-*-cp${py_version}-*-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/psutil",
 					"asset": "psutil-*-cp${py_version}-*-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/psutil",
 					"asset": "psutil-*-cp${py_version}-*-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/psutil",
 					"asset": "psutil-*-cp${py_version}-*-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1303,7 +1303,7 @@
 				{
 					"base": "https://pypi.org/project/ptyprocess",
 					"asset": "ptyprocess-*-py2.py3-none-any.whl",
-					"python_versions": ["3.3", "3.8", "3.13"]
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1316,7 +1316,7 @@
 				{
 					"base": "https://pypi.org/project/pycparser",
 					"asset": "pycparser-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"],
+					"python_versions": ["3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -1344,31 +1344,31 @@
 					"base": "https://pypi.org/project/pycryptodome",
 					"asset": "pycryptodome-*-cp37-abi3-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pycryptodome",
 					"asset": "pycryptodome-*-cp37-abi3-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pycryptodome",
 					"asset": "pycryptodome-*-cp37-abi3-macosx_*_universal2.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pycryptodome",
 					"asset": "pycryptodome-*-cp37-abi3-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pycryptodome",
 					"asset": "pycryptodome-*-cp37-abi3-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1381,7 +1381,7 @@
 				{
 					"base": "https://pypi.org/project/pydantic",
 					"asset": "pydantic-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1395,37 +1395,37 @@
 					"platforms": ["windows-x32"],
 					"base": "https://pypi.org/project/pydantic-core",
 					"asset": "pydantic_core-*-cp${py_version}-*-win32.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["windows-x64"],
 					"base": "https://pypi.org/project/pydantic-core",
 					"asset": "pydantic_core-*-cp${py_version}-cp${py_version}-win_amd64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["linux-x64"],
 					"base": "https://pypi.org/project/pydantic-core",
 					"asset": "pydantic_core-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["linux-arm64"],
 					"base": "https://pypi.org/project/pydantic-core",
 					"asset": "pydantic_core-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["osx-x64"],
 					"base": "https://pypi.org/project/pydantic-core",
 					"asset": "pydantic_core-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["osx-arm64"],
 					"base": "https://pypi.org/project/pydantic-core",
 					"asset": "pydantic_core-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1456,7 +1456,7 @@
 				{
 					"base": "https://pypi.org/project/pygments",
 					"asset": "pygments-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1474,7 +1474,7 @@
 				{
 					"base": "https://pypi.org/project/pymdown-extensions",
 					"asset": "pymdown_extensions-*-py3-none-any.whl",
-					"python_versions": ["3.13"]
+					"python_versions": ["3.13", "3.14"]
 				}
 			]
 		},
@@ -1492,7 +1492,7 @@
 				{
 					"base": "https://pypi.org/project/pymdown-extensions",
 					"asset": "pymdown_extensions-*-py3-none-any.whl",
-					"python_versions": ["3.13"]
+					"python_versions": ["3.13", "3.14"]
 				}
 			]
 		},
@@ -1504,7 +1504,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/bisguzar/sublime-serial",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -1519,31 +1519,31 @@
 					"base": "https://pypi.org/project/pysimdjson",
 					"asset": "pysimdjson-*-cp${py_version}-cp${py_version}-macosx_*_universal2.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pysimdjson",
 					"asset": "pysimdjson-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pysimdjson",
 					"asset": "pysimdjson-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pysimdjson",
 					"asset": "pysimdjson-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pysimdjson",
 					"asset": "pysimdjson-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1561,7 +1561,7 @@
 				{
 					"base": "https://pypi.org/project/pyte",
 					"asset": "pyte-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1579,7 +1579,7 @@
 				{
 					"base": "https://pypi.org/project/python-docx",
 					"asset": "python_docx-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1592,7 +1592,7 @@
 				{
 					"base": "https://pypi.org/project/pytz",
 					"asset": "pytz-*-py2.py3-none-any.whl",
-					"python_versions": ["3.3", "3.8", "3.13"]
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1612,7 +1612,7 @@
 					"base": "https://pypi.org/project/pywin32",
 					"asset": "pywin32-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1638,7 +1638,7 @@
 					"base": "https://pypi.org/project/pywinpty",
 					"asset": "pywinpty-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.13"]
+					"python_versions": ["3.13", "3.14"]
 				}
 			]
 		},
@@ -1650,7 +1650,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/pyyaml",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -1671,43 +1671,43 @@
 					"base": "https://pypi.org/project/pyzmq",
 					"asset": "pyzmq-*-cp${py_version}-cp${py_version}-macosx_*_universal2.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pyzmq",
 					"asset": "pyzmq-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pyzmq",
 					"asset": "pyzmq-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pyzmq",
 					"asset": "pyzmq-*-cp${py_version}-cp${py_version}-manylinux_*_i686.whl",
 					"platforms": ["linux-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pyzmq",
 					"asset": "pyzmq-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pyzmq",
 					"asset": "pyzmq-*-cp${py_version}-cp${py_version}-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/pyzmq",
 					"asset": "pyzmq-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1726,43 +1726,43 @@
 					"base": "https://pypi.org/project/regex",
 					"asset": "regex-*-cp${py_version}-cp${py_version}-macosx_*_universal2.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/regex",
 					"asset": "regex-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/regex",
 					"asset": "regex-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/regex",
 					"asset": "regex-*-cp${py_version}-cp${py_version}-manylinux_*_i686.whl",
 					"platforms": ["linux-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/regex",
 					"asset": "regex-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/regex",
 					"asset": "regex-*-cp${py_version}-cp${py_version}-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/regex",
 					"asset": "regex-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1780,7 +1780,7 @@
 				{
 					"base": "https://pypi.org/project/requests",
 					"asset": "requests-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1798,7 +1798,7 @@
 				{
 					"base": "https://pypi.org/project/requests-oauthlib",
 					"asset": "requests_oauthlib-*-py2.py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1810,7 +1810,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/packagecontrol/resumeback",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -1829,7 +1829,7 @@
 				{
 					"base": "https://pypi.org/project/ruamel.yaml",
 					"asset": "ruamel.yaml-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1843,37 +1843,37 @@
 					"platforms": ["windows-x32"],
 					"base": "https://pypi.org/project/ruamel.yaml.clib",
 					"asset": "ruamel.yaml.clib-*-cp${py_version}-win32.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["windows-x64"],
 					"base": "https://pypi.org/project/ruamel.yaml.clib",
 					"asset": "ruamel.yaml.clib-*-cp${py_version}-win_amd64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["linux-x64"],
 					"base": "https://pypi.org/project/ruamel.yaml.clib",
 					"asset": "ruamel.yaml.clib-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["linux-arm64"],
 					"base": "https://pypi.org/project/ruamel.yaml.clib",
 					"asset": "ruamel.yaml.clib-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["osx-x64"],
 					"base": "https://pypi.org/project/ruamel.yaml.clib",
 					"asset": "ruamel.yaml.clib-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["osx-arm64"],
 					"base": "https://pypi.org/project/ruamel.yaml.clib",
 					"asset": "ruamel.yaml.clib-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1953,7 +1953,7 @@
 				{
 					"base": "https://pypi.org/project/six",
 					"asset": "six-*-py2.py3-none-any.whl",
-					"python_versions": ["3.3", "3.8", "3.13"]
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -1965,7 +1965,7 @@
 			"releases": [
 				{
 					"base": "https://pypi.org/project/soupsieve",
-					"python_versions": ["3.8", "3.13"],
+					"python_versions": ["3.8", "3.13", "3.14"],
 					"asset": "soupsieve-*-py3-none-any.whl"
 				}
 			]
@@ -2005,7 +2005,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/huot25/StyledPopup",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -2019,7 +2019,7 @@
 				{
 					"base": "https://github.com/packagecontrol/sublime_aio",
 					"asset": "sublime_aio-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2038,7 +2038,7 @@
 				{
 					"base": "https://github.com/SublimeText/sublime_lib",
 					"asset": "sublime_lib-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2065,7 +2065,7 @@
 				{
 					"base": "https://pypi.org/project/tabulate",
 					"asset": "tabulate-*-py3-none-any.whl",
-					"python_versions": ["3.3", "3.8", "3.13"]
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2079,31 +2079,31 @@
 					"base": "https://pypi.org/project/tiktoken",
 					"asset": "tiktoken-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tiktoken",
 					"asset": "tiktoken-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tiktoken",
 					"asset": "tiktoken-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tiktoken",
 					"asset": "tiktoken-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tiktoken",
 					"asset": "tiktoken-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2128,7 +2128,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/jgirardet/sublime-toml",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -2142,7 +2142,7 @@
 				{
 					"base": "https://pypi.org/project/toolz",
 					"asset": "toolz-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2156,43 +2156,43 @@
 					"base": "https://pypi.org/project/tornado",
 					"asset": "tornado-*-cp${py_version}-*-macosx_*_universal2.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tornado",
 					"asset": "tornado-*-cp${py_version}-*-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tornado",
 					"asset": "tornado-*-cp${py_version}-*-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tornado",
 					"asset": "tornado-*-cp${py_version}-*-manylinux_*_i686.whl",
 					"platforms": ["linux-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tornado",
 					"asset": "tornado-*-cp${py_version}-*-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tornado",
 					"asset": "tornado-*-cp${py_version}-*-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tornado",
 					"asset": "tornado-*-cp${py_version}-*-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2206,37 +2206,37 @@
 					"base": "https://pypi.org/project/tree_sitter",
 					"asset": "tree_sitter-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tree_sitter",
 					"asset": "tree_sitter-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tree_sitter",
 					"asset": "tree_sitter-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tree_sitter",
 					"asset": "tree_sitter-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tree_sitter",
 					"asset": "tree_sitter-*-cp${py_version}-cp${py_version}-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tree_sitter",
 					"asset": "tree_sitter-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2250,37 +2250,37 @@
 					"base": "https://pypi.org/project/tree_sitter_languages",
 					"asset": "tree_sitter_languages-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
 					"platforms": ["linux-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tree_sitter_languages",
 					"asset": "tree_sitter_languages-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
 					"platforms": ["linux-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tree_sitter_languages",
 					"asset": "tree_sitter_languages-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tree_sitter_languages",
 					"asset": "tree_sitter_languages-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tree_sitter_languages",
 					"asset": "tree_sitter_languages-*-cp${py_version}-cp${py_version}-win32.whl",
 					"platforms": ["windows-x32"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/tree_sitter_languages",
 					"asset": "tree_sitter_languages-*-cp${py_version}-cp${py_version}-win_amd64.whl",
 					"platforms": ["windows-x64"],
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2306,7 +2306,7 @@
 				{
 					"base": "https://pypi.org/project/typing-extensions",
 					"asset": "typing_extensions-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2319,7 +2319,7 @@
 				{
 					"base": "https://pypi.org/project/typing-inspection",
 					"asset": "typing_inspection-*-py3-none-any.whl",
-					"python_versions": ["3.13"]
+					"python_versions": ["3.13", "3.14"]
 				}
 			]
 		},
@@ -2332,7 +2332,7 @@
 				{
 					"base": "https://pypi.org/project/urllib3",
 					"asset": "urllib3-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2344,7 +2344,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/terminalfi/vision",
-					"python_versions": ["3.8", "3.13"],
+					"python_versions": ["3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -2364,37 +2364,37 @@
 					"platforms": ["windows-x32"],
 					"base": "https://pypi.org/project/watchdog",
 					"asset": "watchdog-*-py3-none-win32.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["windows-x64"],
 					"base": "https://pypi.org/project/watchdog",
 					"asset": "watchdog-*-py3-none-win_amd64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["linux-x64"],
 					"base": "https://pypi.org/project/watchdog",
 					"asset": "watchdog-*-py3-none-manylinux2014_x86_64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["linux-arm64"],
 					"base": "https://pypi.org/project/watchdog",
 					"asset": "watchdog-*-py3-none-manylinux2014_aarch64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["osx-x64"],
 					"base": "https://pypi.org/project/watchdog",
 					"asset": "watchdog-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["osx-arm64"],
 					"base": "https://pypi.org/project/watchdog",
 					"asset": "watchdog-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2412,7 +2412,7 @@
 				{
 					"base": "https://pypi.org/project/wcmatch",
 					"asset": "wcmatch-*-py3-none-any",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2425,7 +2425,7 @@
 				{
 					"base": "https://pypi.org/project/wcwidth",
 					"asset": "wcwidth-*-py2.py3-none-any.whl",
-					"python_versions": ["3.3", "3.8", "3.13"]
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2443,7 +2443,7 @@
 				{
 					"base": "https://pypi.org/project/websocket-client",
 					"asset": "websocket_client-*-py3-none-any.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2457,31 +2457,31 @@
 					"platforms": ["windows-x64"],
 					"base": "https://pypi.org/project/websockets",
 					"asset": "websockets-*-cp${py_version}-cp${py_version}-win_amd64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["linux-x64"],
 					"base": "https://pypi.org/project/websockets",
 					"asset": "websockets-*-cp${py_version}-cp${py_version}-manylinux_*_x86_64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["linux-arm64"],
 					"base": "https://pypi.org/project/websockets",
 					"asset": "websockets-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["osx-x64"],
 					"base": "https://pypi.org/project/websockets",
 					"asset": "websockets-*-cp${py_version}-cp${py_version}-macosx_*_x86_64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				},
 				{
 					"platforms": ["osx-arm64"],
 					"base": "https://pypi.org/project/websockets",
 					"asset": "websockets-*-cp${py_version}-cp${py_version}-macosx_*_arm64.whl",
-					"python_versions": ["3.8", "3.13"]
+					"python_versions": ["3.8", "3.13", "3.14"]
 				}
 			]
 		},
@@ -2507,7 +2507,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/idleberg/sublime-xmltodict",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
@@ -2520,7 +2520,7 @@
 			"releases": [
 				{
 					"base": "https://github.com/Thom1729/yaml-macros-engine",
-					"python_versions": ["3.3", "3.8", "3.13"],
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
 					"tags": true
 				}
 			]
