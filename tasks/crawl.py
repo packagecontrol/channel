@@ -6,6 +6,7 @@ import json
 import os
 import time
 import hashlib
+import traceback
 
 from decimal import Decimal
 
@@ -143,7 +144,8 @@ def run(
                     del info["sources"]
                     packages.append(info)
             except Exception as e:
-                print(f"  Failed to fetch packages: {e}")
+                print(f"  Failed to fetch packages: {e!r}")
+                traceback.print_exc()
             else:
                 packages_cache[repo_url] = packages
                 if packages:
@@ -156,7 +158,8 @@ def run(
                     del info["sources"]
                     libraries.append(info)
             except Exception as e:
-                print(f"  Failed to fetch libraries: {e}")
+                print(f"  Failed to fetch libraries: {e!r}")
+                traceback.print_exc()
             else:
                 libraries_cache[repo_url] = libraries
                 if libraries:
