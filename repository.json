@@ -1460,7 +1460,7 @@
 					"platforms": ["linux-arm64"],
 					"python_versions": ["3.8", "3.13", "3.14"],
 					"base": "https://pypi.org/project/pygit2",
-					"asset": "pygit2-*-cp${py_version}-cp${py_version}-manylinux*_aarch64.whl"
+					"asset": "pygit2-*-cp${py_version}-cp${py_version}-manylinux_*_aarch64.whl"
 				}
 			]
 		},
