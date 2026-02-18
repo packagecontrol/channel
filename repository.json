@@ -1447,8 +1447,8 @@
 				{
 					"platforms": ["osx"],
 					"python_versions": ["3.8"],
-					"version": "1.13.3",
-					"url": "https://files.pythonhosted.org/packages/7a/e6/ca87a7b036bfcf5611b560325472bbcd7ed10228b6dd9e701df1a2b351a4/pygit2-1.13.3-cp38-cp38-macosx_10_9_universal2.whl"
+					"base": "https://pypi.org/project/pygit2",
+					"asset": "pygit2-*-cp${py_version}-cp${py_version}-macosx_*_universal2.whl"
 				},
 				{
 					"platforms": ["linux-x64"],
