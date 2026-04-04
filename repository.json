@@ -532,15 +532,15 @@
 			]
 		},
 		{
-			"name": "enum",
+			"name": "enum34",
 			"description": "Python enum module",
-			"author": "FichteFoll",
-			"issues": "https://github.com/packagecontrol/enum/issues",
+			"author": " ethanf",
+			"issues": "https://bitbucket.org/stoneleaf/enum34/issues",
 			"releases": [
 				{
-					"base": "https://github.com/packagecontrol/enum",
-					"python_versions": ["3.3"],
-					"tags": true
+					"base": "https://pypi.org/project/enum34",
+					"asset": "enum34-*-py3-none-any.whl",
+					"python_versions": ["3.3"]
 				}
 			]
 		},
