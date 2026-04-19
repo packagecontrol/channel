@@ -16,6 +16,19 @@
 			]
 		},
 		{
+			"name": "anyio",
+			"description": "AnyIO is an asynchronous networking and concurrency library that works on top of either asyncio or Trio.",
+			"author": "agronholm",
+			"issues": "https://github.com/agronholm/anyio",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/anyio",
+					"asset": "anyio-*-py3-none-any.whl",
+					"python_versions": ["3.8", "3.13", "3.14"]
+				}
+			]
+		},
+		{
 			"name": "anytree",
 			"description": "Python Anytree module",
 			"author": "c0fec0de",
