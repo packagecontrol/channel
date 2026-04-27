@@ -24,17 +24,17 @@ jobs:
     steps:
       - name: Set up python
         id: setup-python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: 3.13
+          python-version: 3.14
 
       - name: Checkout repository
         id: checkout-repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Restore http cache
         id: restore-http-cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: cache/
           key: http-cache
@@ -42,7 +42,7 @@ jobs:
 
       - name: Restore asset cache
         id: restore-asset-cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: _site/channel_v4.json.sha512
           key: asset-cache
@@ -58,18 +58,18 @@ jobs:
       - name: Setup pages
         id: setup-pages
         if: steps.resolve-repository.outputs.updated == 'true'
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v6
 
       - name: Upload pages
         id: upload-pages
         if: steps.resolve-repository.outputs.updated == 'true'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site/
 
       - name: Save http cache
         id: save-http-cache
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         if: always()
         with:
           path: cache/
@@ -77,7 +77,7 @@ jobs:
 
       - name: Save asset cache
         id: save-asset-cache
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         if: always()
         with:
           path: _site/channel_v4.json.sha512
