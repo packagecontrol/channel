@@ -2229,6 +2229,21 @@
 			]
 		},
 		{
+			"name": "tiny-aio-http-client",
+			"description": "Minimal asyncio-based HTTP/1.1 client for Python 3.8+ with no external dependencies",
+			"author": "rwols",
+			"issues": "https://github.com/rwols/tiny-aio-http-client/issues",
+			"releases": [
+				{
+					"base": "https://github.com/rwols/tiny-aio-http-client",
+					"platforms": ["*"],
+					"sublime_text": ">=4180",
+					"tags": true,
+					"python_versions": ["3.8", "3.13", "3.14"]
+				}
+			]
+		},
+		{
 			"name": "TM1py",
 			"description": "Python module for interfacing with IBM TM1 Planning Analytics",
 			"author": "MariusWirtz",
