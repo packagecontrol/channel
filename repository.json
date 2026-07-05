@@ -499,7 +499,7 @@
 				{
 					"base": "https://pypi.org/project/cron-descriptor",
 					"asset": "cron_descriptor-*-py3-none-any.whl",
-					"python_versions": ["3.3", "3.8, "3.13", "3.14"]
+					"python_versions": ["3.3", "3.8", "3.13", "3.14"]
 				}
 			]
 		},
