@@ -1143,6 +1143,19 @@
 			]
 		},
 		{
+			"name": "objgraph",
+			"description": "objgraph is a module that lets you visually explore Python object graphs.",
+			"author": "Marius Gedminas",
+			"issues": "https://github.com/mgedmin/objgraph/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/objgraph",
+					"asset": "objgraph-*-py3-none-any.whl",
+					"python_versions": ["3.8", "3.13", "3.14"]
+				}
+			]
+		},
+		{
 			"name": "onecache",
 			"description": "Python cache for sync and async code.",
 			"author": "sonic182",
