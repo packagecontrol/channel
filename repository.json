@@ -380,6 +380,30 @@
 			]
 		},
 		{
+		    "name": "codebabeldarka Color Scheme",
+			"author":"codebabel",
+		    "description": "codebabel theme sublime/devine : codebabeldarka.",
+		    "details": "https://github.com/codebabel-appbag/codebabeldarka-SublimeText",
+		    "keywords": [
+		       "codebabel",
+		       "cbbl",
+		       "darktheme",
+		       "theme",
+		       "dark",
+		       "codebabeldarka"
+		     ],
+		     "labels": [
+		       "color scheme",
+		       "theme"
+		     ],
+		     "releases": [
+		       {
+		         "sublime_text": "*",
+		         "tags": true
+		       }
+		  ]
+		},
+		{
 			"name": "coloraide",
 			"description": "A color library.",
 			"author": "facelessuser",
