@@ -9,7 +9,7 @@ This repository provides ~~dependency~~ library meta-data for Package Control 4.
 
 Package Control 4 ships with default configuration to deploy libraries using this channel.
 
-If you encounter any issues with libraries not being available for python 3.8 or 3.13,
+If you encounter any issues with libraries not being available for Python 3.8, 3.13, or 3.14,
 make sure the correct default channel is included in _Packages/User/Package Control.sublime-settings_.
 
 see also: https://packages.sublimetext.io/about
