@@ -2066,6 +2066,16 @@
 			]
 		},
 		{
+			"name": "RestEngineClient",
+			"details": "https://github.com/eliasspt/RestEngineClient",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "requests",
 			"description": "Python HTTP for Humans.",
 			"author": "Kenneth Reitz",
