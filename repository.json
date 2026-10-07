@@ -248,7 +248,14 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandrocoan/channelmanager",
-					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
+					"python_versions": ["3.3"],
+					"sublime_text": "3000 - 3999",
+					"tags": "st-"
+				},
+				{
+					"base": "https://github.com/evandrocoan/channelmanager",
+					"python_versions": ["3.8", "3.14"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -405,7 +412,14 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandroforks/concurrentloghandler",
-					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
+					"python_versions": ["3.3"],
+					"sublime_text": "3000 - 3999",
+					"tags": "st-"
+				},
+				{
+					"base": "https://github.com/evandroforks/concurrentloghandler",
+					"python_versions": ["3.8", "3.14"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -538,7 +552,14 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandrocoan/debugtools",
-					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
+					"python_versions": ["3.3"],
+					"sublime_text": "3000 - 3999",
+					"tags": "st-"
+				},
+				{
+					"base": "https://github.com/evandrocoan/debugtools",
+					"python_versions": ["3.8", "3.14"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -564,7 +585,14 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandroforks/diffmatchpatch",
-					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
+					"python_versions": ["3.3"],
+					"sublime_text": "3000 - 3999",
+					"tags": "st-"
+				},
+				{
+					"base": "https://github.com/evandroforks/diffmatchpatch",
+					"python_versions": ["3.8", "3.14"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1389,7 +1417,14 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandrocoan/plantumlconnection",
-					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
+					"python_versions": ["3.3"],
+					"sublime_text": "3000 - 3999",
+					"tags": "st-"
+				},
+				{
+					"base": "https://github.com/evandrocoan/plantumlconnection",
+					"python_versions": ["3.8", "3.14"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1402,7 +1437,14 @@
 			"releases": [
 				{
 					"base": "https://github.com/evandroforks/portalockerfile",
-					"python_versions": ["3.3", "3.8", "3.13", "3.14"],
+					"python_versions": ["3.3"],
+					"sublime_text": "3000 - 3999",
+					"tags": "st-"
+				},
+				{
+					"base": "https://github.com/evandroforks/portalockerfile",
+					"python_versions": ["3.8", "3.14"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
