@@ -2953,6 +2953,19 @@
 			]
 		},
 		{
+			"name": "wenmode",
+			"description": "A fast, composable Markdown parser and renderer toolkit.",
+			"author": "lepture",
+			"issues": "https://github.com/lepture/wenmode/issues",
+			"releases": [
+				{
+				"base": "https://pypi.org/project/wenmode",
+				"asset": "wenmode-*-py3-none-any.whl",
+				"python_versions": ["3.13", "3.14"]
+				}
+			]
+		},
+		{
 			"name": "wsproto",
 			"description": "A pure-Python implementation of a WebSocket protocol stack.",
 			"author": "Benno Rice",
