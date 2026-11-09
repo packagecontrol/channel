@@ -1488,19 +1488,19 @@
 				},
 				{
 					"base": "https://pypi.org/project/psutil",
-					"asset": "psutil-*-cp3*-abi3-*-manylinux*_x86_64.whl",
+					"asset": "psutil-*-cp3*-abi3-manylinux*_x86_64.whl",
 					"platforms": ["linux-x64"],
 					"python_versions": ["3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/psutil",
-					"asset": "psutil-*-cp3*-abi3-*-macosx_*_arm64.whl",
+					"asset": "psutil-*-cp3*-abi3-macosx_*_arm64.whl",
 					"platforms": ["osx-arm64"],
 					"python_versions": ["3.13", "3.14"]
 				},
 				{
 					"base": "https://pypi.org/project/psutil",
-					"asset": "psutil-*-cp3*-abi3-*-macosx_*_x86_64.whl",
+					"asset": "psutil-*-cp3*-abi3-macosx_*_x86_64.whl",
 					"platforms": ["osx-x64"],
 					"python_versions": ["3.13", "3.14"]
 				},
