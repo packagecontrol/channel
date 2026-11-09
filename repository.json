@@ -2940,6 +2940,12 @@
 				},
 				{
 					"base": "https://pypi.org/project/websockets",
+					"asset": "websockets-*-cp${py_version}-cp${py_version}-win_arm64.whl",
+					"platforms": ["windows-arm64"],
+					"python_versions": ["3.8", "3.13", "3.14"]
+				},
+				{
+					"base": "https://pypi.org/project/websockets",
 					"asset": "websockets-*-cp${py_version}-cp${py_version}-manylinux*_x86_64.whl",
 					"platforms": ["linux-x64"],
 					"python_versions": ["3.8", "3.13", "3.14"]
