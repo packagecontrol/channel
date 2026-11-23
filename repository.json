@@ -2270,6 +2270,19 @@
 			]
 		},
 		{
+			"name": "skipcheck-tm1",
+			"description": "Python client for the IBM Planning Analytics (TM1) REST API.",
+			"author": "ajmyers",
+			"issues": "https://github.com/ajmyers/skipcheck-tm1/issues",
+			"releases": [
+				{
+					"base": "https://pypi.org/project/skipcheck-tm1",
+					"asset": "skipcheck_tm1-*-py3-none-any.whl",
+					"python_versions": ["3.13", "3.14"]
+				}
+			]
+		},
+		{
 			"name": "soupsieve",
 			"description": "A modern CSS selector implementation for Beautiful Soup. - https://github.com/facelessuser/soupsieve",
 			"author": "facelessuser",
